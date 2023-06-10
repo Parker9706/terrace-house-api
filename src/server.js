@@ -12,12 +12,16 @@ const limiter = rateLimit({
 });
 
 app.use(limiter);
-
 dotenv.config();
 const PORT = process.env.PORT || 3000;
-
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
+
+// Define language preference (defaults to English)
+app.use((req, res) => {
+  const language = req.query.language || 'en';
+  req.language = language;
+});
 
 app.use('/api/v1', router);
 

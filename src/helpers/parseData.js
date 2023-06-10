@@ -3,10 +3,14 @@ import fs from 'fs';
 const parseData = (requestedCollection) => {
   const basePath = './src/data/';
   const fileMap = {
-    members: "en/people/members.json",
-    commentators: "null",
-    series: "null",
-    quotes: "en/quotes/quotes.json"
+    membersEng: "en/people/members.json",
+    commentatorsEng: "null",
+    seriesEng: "null",
+    quotesEng: "en/quotes/quotes.json",
+    membersJp: "null",
+    commentatorsJp: "null",
+    seriesJp: "null",
+    quotesJp: "null"
   };
   const path = basePath + fileMap[requestedCollection];
   try {
