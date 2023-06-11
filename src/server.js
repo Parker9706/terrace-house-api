@@ -24,7 +24,7 @@ app.use((req, res, next) => {
   next();
 });
 
-// app.use('/api/v1', router);
+app.use('/api/v1', router);
 
 app.get('/members', async (req, res) => {
   const { language } = req.params;
@@ -32,9 +32,9 @@ app.get('/members', async (req, res) => {
   return res.status(200).json(result);
 });
 
-// app.use((req, res) => {
-//   return res.status(404).send('Endpoint not found...');
-// });
+app.use((req, res) => {
+  return res.status(404).send('Endpoint not found...');
+});
 
 app.use((err, req, res) => {
   console.error(err.stack);
