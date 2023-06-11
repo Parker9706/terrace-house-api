@@ -2,6 +2,7 @@ import dotenv from "dotenv";
 import express from "express";
 import rateLimit from 'express-rate-limit';
 import router from "./routes.js";
+import { findAllMembers } from "./controllers/members.js";
 
 const app = express();
 
@@ -23,17 +24,25 @@ app.use((req, res, next) => {
   next();
 });
 
-app.use('/api/v1', router);
+// app.use('/api/v1', router);
 
-app.use((req, res) => {
-  return res.status(404).send('Endpoint not found...');
+app.get('/members', async (req, res) => {
+  const { language } = req.params;
+  const result = await findAllMembers();
+  return res.status(200).json(result);
 });
+
+// app.use((req, res) => {
+//   return res.status(404).send('Endpoint not found...');
+// });
 
 app.use((err, req, res) => {
   console.error(err.stack);
-  res.status(500).send('Internal Server Error');
+  return res.status(500).send('Internal Server Error');
 });
 
 app.listen(PORT, () => {
   console.log(`Server listening on port ${PORT}`);
 });
+
+export default app;
