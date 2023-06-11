@@ -6,6 +6,7 @@ const router = express.Router();
 
 // Members
 router.get('/members', async (req, res) => {
+  const { language } = req.params;
   const result = await findAllMembers();
   return res.status(200).json(result);
 });
@@ -16,9 +17,14 @@ router.get('/member/:name', async (req, res) => {
   return res.status(200).json(result);
 });
 
+// Commentators
+
+// Guests
+
 // Quotes
 router.get('/quotes', async (req, res) => {
-  const result = await getARandomQuote();
+  const { language } = req;
+  const result = await getARandomQuote(language);
   return res.status(200).json(result);
 });
 
@@ -31,6 +37,16 @@ router.get('/quotes/:name', async (req, res) => {
 router.get('/quotes/:id', async (req, res) => {
   const { id } = req.params;
   const result = await getASpecificQuote(parseInt(id));
+  return res.status(200).json(result);
+});
+
+// Series
+
+
+// Episodes
+router.get('/episodes/:series', async (req, res) => {
+  const { language } = req;
+  // const result = await getARandomQuote(language);
   return res.status(200).json(result);
 });
 

@@ -17,19 +17,19 @@ const PORT = process.env.PORT || 3000;
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-// Define language preference (defaults to English)
-app.use((req, res) => {
+app.use((req, res, next) => {
   const language = req.query.language || 'en';
   req.language = language;
+  next();
 });
 
 app.use('/api/v1', router);
 
-app.use((req, res, next) => {
+app.use((req, res) => {
   return res.status(404).send('Endpoint not found...');
 });
 
-app.use((err, req, res, next) => {
+app.use((err, req, res) => {
   console.error(err.stack);
   res.status(500).send('Internal Server Error');
 });

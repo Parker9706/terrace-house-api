@@ -1,18 +1,24 @@
 import fs from 'fs';
 
-const parseData = (requestedCollection) => {
+const parseData = (requestedCollection, language) => {
   const basePath = './src/data/';
-  const fileMap = {
-    membersEng: "en/people/members.json",
-    commentatorsEng: "null",
-    seriesEng: "null",
-    quotesEng: "en/quotes/quotes.json",
-    membersJp: "null",
-    commentatorsJp: "null",
-    seriesJp: "null",
-    quotesJp: "null"
+  const englishMap = {
+    members: "en/people/members.json",
+    commentators: "null",
+    series: "null",
+    quotes: "en/quotes/quotes.json",
   };
-  const path = basePath + fileMap[requestedCollection];
+  const japaneseMap = {
+    members: "null",
+    commentators: "null",
+    series: "null",
+    quotes: "jp/quotes/quotes.json"
+  };
+  let path;
+  console.log('lang', language);
+  if (language === 'jp') path = basePath + japaneseMap[requestedCollection];
+  else path = basePath + englishMap[requestedCollection];
+  console.log(path);
   try {
     const jsonData = fs.readFileSync(path, 'utf8');
     return JSON.parse(jsonData);
