@@ -5,11 +5,11 @@ import { getARandomQuote, getQuoteByMember, getASpecificQuote } from './controll
 const router = express.Router();
 
 // Members
-// router.get('/members', async (req, res) => {
-//   const { language } = req.params;
-//   const result = await findAllMembers();
-//   return res.status(200).json(result);
-// });
+router.get('/members', async (req, res) => {
+  const { language } = req.params;
+  const result = await findAllMembers();
+  return res.status(200).json(result);
+});
 
 router.get('/member/:name', async (req, res) => {
   const { name } = req.params;

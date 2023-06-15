@@ -7,6 +7,4 @@ export const findAnEpisode = async (language) => {
 
 export const findAllEpisodesFromASeries = async (language) => {
   const data = await parseData('episodes', language);
-  
-}
-
+};

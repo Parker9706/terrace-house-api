@@ -1,4 +1,3 @@
-# Terrace House Api
 An open-source API with a large collection of data from the Japanese sleeper hit TV show, Terrace House. 
 
 ## Deployment

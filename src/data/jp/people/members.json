@@ -1,1384 +1,1384 @@
 [
   {
-    "appearanceNumber": "01",
-    "name": "Kaori Watanabe",
-    "japaneseName": "渡邉香織",
-    "nickname": "",
-    "occupation": "Illustrator",
-    "birthDate": "June 25, 1990",
-    "age": 28,
-    "appearance": [
-      1,
-      20
-    ],
-    "episodes": 20,
-    "series": "Tokyo 2019-2020"
-  },
-  {
-    "appearanceNumber": "02",
-    "name": "Shohei Matsuzaki",
-    "japaneseName": "松嵜翔平",
-    "nickname": "",
-    "occupation": "Actor/Writer",
-    "birthDate": "October 9, 1993",
-    "age": 25,
-    "appearance": [
-      1,
-      18
-    ],
-    "episodes": 18,
-    "series": "Tokyo 2019-2020"
-  },
-  {
-    "appearanceNumber": "03",
-    "name": "Haruka Okuyama",
-    "japaneseName": "奥山春花",
-    "nickname": "",
-    "occupation": "Actress",
-    "birthDate": "March 24, 1995",
-    "age": 24,
-    "appearance": [
-      1,
-      25
-    ],
-    "episodes": 25,
-    "series": "Tokyo 2019-2020"
-  },
-  {
-    "appearanceNumber": "04",
-    "name": "Kenji Yoshihara",
-    "japaneseName": "吉原健司",
-    "nickname": "Kenny",
-    "occupation": "Musician",
-    "birthDate": "June 2, 1987",
-    "age": 31,
-    "appearance": [
-      1,
-      14
-    ],
-    "episodes": 14,
-    "series": "Tokyo 2019-2020"
-  },
-  {
-    "appearanceNumber": "05",
-    "name": "Risako Tanabe",
-    "japaneseName": "田辺莉咲子",
-    "nickname": "",
-    "occupation": "Fitness trainer",
-    "birthDate": "January 14, 1998",
-    "age": 21,
-    "appearance": [
-      1,
-      14
-    ],
-    "episodes": 14,
-    "series": "Tokyo 2019-2020"
-  },
-  {
-    "appearanceNumber": "06",
-    "name": "Ruka Nishinoiri",
-    "japaneseName": "西野入流佳",
-    "nickname": "",
-    "occupation": "Part-timer",
-    "birthDate": "December 1, 1998",
-    "age": 20,
-    "appearance": [
-      1,
-      25
-    ],
-    "episodes": 25,
-    "series": "Tokyo 2019-2020"
-  },
-  {
-    "appearanceNumber": "07",
-    "name": "Emika Mizukoshi",
-    "japaneseName": "水越愛華",
-    "nickname": "",
-    "occupation": "University student",
-    "birthDate": "February 1, 1998",
-    "age": 21,
-    "appearance": [
-      14,
-      34
-    ],
-    "episodes": 21,
-    "series": "Tokyo 2019-2020"
-  },
-  {
-    "appearanceNumber": "08",
-    "name": "Giuseppe Durato",
-    "japaneseName": "デュラト・ジュゼッペ",
-    "nickname": "Peppe",
-    "occupation": "Manga artist",
-    "birthDate": "December 24, 1992",
-    "age": 27,
-    "appearance": [
-      14,
-      26
-    ],
-    "episodes": 13,
-    "series": "Tokyo 2019-2020"
-  },
-  {
-    "appearanceNumber": "09",
-    "name": "Ryo Tawatari",
-    "japaneseName": "田渡凌",
-    "nickname": "",
-    "occupation": "Basketball player (Yokohama B-Corsairs)",
-    "birthDate": "June 29, 1993",
-    "age": 26,
-    "appearance": [
-      18,
-      32
-    ],
-    "episodes": 15,
-    "series": "Tokyo 2019-2020"
-  },
-  {
-    "appearanceNumber": "10",
-    "name": "Hana Kimura",
-    "japaneseName": "木村花",
-    "nickname": "",
-    "occupation": "Professional wrestler",
-    "birthDate": "September 3, 1997",
-    "age": 21,
-    "appearance": [
-      20,
-      42
-    ],
-    "episodes": 23,
-    "series": "Tokyo 2019-2020"
-  },
-  {
-    "appearanceNumber": "11",
-    "name": "Violetta Razdumina",
-    "japaneseName": "ラズドゥミナ・ヴィオレッタ",
-    "nickname": "Vivi",
-    "occupation": "Aspiring actress",
-    "birthDate": "October 4, 1995",
-    "age": 24,
-    "appearance": [
-      26,
-      42
-    ],
-    "episodes": 17,
-    "series": "Tokyo 2019-2020"
-  },
-  {
-    "appearanceNumber": "12",
-    "name": "Kai Kobayashi",
-    "japaneseName": "小林快",
-    "nickname": "",
-    "occupation": "Comedian",
-    "birthDate": "August 15, 1994",
-    "age": 25,
-    "appearance": [
-      26,
-      39
-    ],
-    "episodes": 14,
-    "series": "Tokyo 2019-2020"
-  },
-  {
-    "appearanceNumber": "13",
-    "name": "John Kimverlu Tupas",
-    "japaneseName": "トパス　ジョンキンバルー",
-    "nickname": "Tupas",
-    "occupation": "Lily Franky's personal assistant",
-    "birthDate": "January 13, 1997",
-    "age": 22,
-    "appearance": [
-      26,
-      34
-    ],
-    "episodes": 9,
-    "series": "Tokyo 2019-2020"
-  },
-  {
-    "appearanceNumber": "14",
-    "name": "Toshiyuki Niino",
-    "japaneseName": "新野俊幸",
-    "nickname": "Shachō (社長, \"Boss\")",
-    "occupation": "CEO of EXIT Inc.",
-    "birthDate": "October 21, 1989",
-    "age": 30,
-    "appearance": [
-      33,
-      42
-    ],
-    "episodes": 10,
-    "series": "Tokyo 2019-2020"
-  },
-  {
-    "appearanceNumber": "15",
-    "name": "Yume Hayashi",
-    "japaneseName": "林ゆめ",
-    "nickname": "",
-    "occupation": "Office worker/Gravure model",
-    "birthDate": "October 18, 1995",
-    "age": 24,
-    "appearance": [
-      34,
-      42
-    ],
-    "episodes": 9,
-    "series": "Tokyo 2019-2020"
-  },
-  {
-    "appearanceNumber": "16",
-    "name": "Shion Suzuki",
-    "japaneseName": "鈴木志遠",
-    "nickname": "",
-    "occupation": "University student",
-    "birthDate": "February 1, 1997",
-    "age": 22,
-    "appearance": [
-      34,
-      42
-    ],
-    "episodes": 9,
-    "series": "Tokyo 2019-2020"
-  },
-  {
-    "appearanceNumber": "17",
-    "name": "Reo Kanao",
-    "japaneseName": "金尾玲生",
-    "nickname": "",
-    "occupation": "Professional surfer/Entrepreneur",
-    "birthDate": "June 24, 1992",
-    "age": 27,
-    "appearance": [
-      39,
-      42
-    ],
-    "episodes": 4,
-    "series": "Tokyo 2019-2020"
-  },
-  {
-    "appearanceNumber": "18",
-    "name": "Monroe Ron",
-    "japaneseName": "ロンモンロウ",
-    "nickname": "",
-    "occupation": "Model/Singer",
-    "birthDate": "July 31, 1995",
-    "age": 24,
-    "appearance": [
-      42,
-      42
-    ],
-    "episodes": 1,
-    "series": "Tokyo 2019-2020"
-  },
-  {
-    "appearanceNumber": "01",
-    "name": "Ami Komuro",
-    "japaneseName": "小室安未",
-    "nickname": "Ami",
-    "occupation": "university student / aspiring model",
-    "birthDate": "January 19, 1997",
-    "age": 21,
-    "appearance": [
-      1,
-      17
-    ],
-    "episodes": 17,
-    "series": "Opening New Doors"
-  },
-  {
-    "appearanceNumber": "02",
-    "name": "Yuudai Arai",
-    "japaneseName": "新井雄大",
-    "nickname": "Yuudai",
-    "occupation": "aspiring chef",
-    "birthDate": "April 8, 1998",
-    "age": 19,
-    "appearance": [
-      1,
-      9
-    ],
-    "episodes": 9,
-    "series": "Opening New Doors"
-  },
-  {
-    "appearanceNumber": "03",
-    "name": "Mizuki Haruta",
-    "japaneseName": "治田みずき",
-    "nickname": "Miju",
-    "occupation": "digital content editor / interpreter / online lingerie store owner",
-    "birthDate": "June 30, 1991",
-    "age": 26,
-    "appearance": [
-      1,
-      9
-    ],
-    "episodes": 9,
-    "series": "Opening New Doors"
-  },
-  {
-    "appearanceNumber": "04",
-    "name": "Takayuki Nakamura",
-    "japaneseName": "中村貴之",
-    "nickname": "Taka",
-    "occupation": "professional snowboarder",
-    "birthDate": "May 25, 1986",
-    "age": 31,
-    "appearance": [
-      1,
-      34
-    ],
-    "episodes": 34,
-    "series": "Opening New Doors"
-  },
-  {
-    "appearanceNumber": "05",
-    "name": "Tsubasa Sato",
-    "japaneseName": "佐藤つば冴",
-    "nickname": "Tsu-chan / Captain Tsubasa",
-    "occupation": "ice hockey player",
-    "birthDate": "September 28, 1993",
-    "age": 25,
-    "appearance": [
-      1,
-      21
-    ],
-    "episodes": 21,
-    "series": "Opening New Doors"
-  },
-  {
-    "appearanceNumber": "06",
-    "name": "Shion \"Sean\" Okamoto",
-    "japaneseName": "岡本至恩",
-    "nickname": "Shion",
-    "occupation": "model",
-    "birthDate": "January 13, 1995",
-    "age": 23,
-    "appearance": [
-      1,
-      21
-    ],
-    "episodes": 21,
-    "series": "Opening New Doors"
-  },
-  {
-    "appearanceNumber": "07",
-    "name": "Shohei Uemura",
-    "japaneseName": "上村翔平",
-    "nickname": "Shohei",
-    "occupation": "musician / vocalist",
-    "birthDate": "July 16, 1989",
-    "age": 28,
-    "appearance": [
-      10,
-      31
-    ],
-    "episodes": 22,
-    "series": "Opening New Doors"
-  },
-  {
-    "appearanceNumber": "08",
-    "name": "Seina Shimabukuro",
-    "japaneseName": "島袋聖南",
-    "nickname": "Seina",
-    "occupation": "model",
-    "birthDate": "April 4, 1987",
-    "age": 30,
-    "appearance": [
-      10,
-      34
-    ],
-    "episodes": 25,
-    "series": "Opening New Doors"
-  },
-  {
-    "appearanceNumber": "09",
-    "name": "Mayu Koseta",
-    "japaneseName": "小瀬田麻由",
-    "nickname": "Mayu",
-    "occupation": "gravure model",
-    "birthDate": "November 12, 1994",
-    "age": 23,
-    "appearance": [
-      17,
-      26
-    ],
-    "episodes": 10,
-    "series": "Opening New Doors"
-  },
-  {
-    "appearanceNumber": "10",
-    "name": "Yui Tanaka",
-    "japaneseName": "田中優衣",
-    "nickname": "Yui",
-    "occupation": "university student",
-    "birthDate": "December 24, 1996",
-    "age": 21,
-    "appearance": [
-      22,
-      49
-    ],
-    "episodes": 28,
-    "series": "Opening New Doors"
-  },
-  {
-    "appearanceNumber": "11",
-    "name": "Noah Ishikura",
-    "japaneseName": "石倉ノア",
-    "nickname": "Noah",
-    "occupation": "aspiring pilot",
-    "birthDate": "November 19, 1996",
-    "age": 21,
-    "appearance": [
-      22,
-      34
-    ],
-    "episodes": 13,
-    "series": "Opening New Doors"
-  },
-  {
-    "appearanceNumber": "12",
-    "name": "Aya Matarai",
-    "japaneseName": "又来綾",
-    "nickname": "Aya",
-    "occupation": "university student",
-    "birthDate": "December 29, 1997",
-    "age": 20,
-    "appearance": [
-      26,
-      38
-    ],
-    "episodes": 13,
-    "series": "Opening New Doors"
-  },
-  {
-    "appearanceNumber": "13",
-    "name": "Shunsuke Ikezoe",
-    "japaneseName": "池添俊亮",
-    "nickname": "Shunsuke",
-    "occupation": "aspiring hair & makeup artist",
-    "birthDate": "April 27, 1997",
-    "age": 21,
-    "appearance": [
-      32,
-      38
-    ],
-    "episodes": 7,
-    "series": "Opening New Doors"
-  },
-  {
-    "appearanceNumber": "14",
-    "name": "Kaito Nakata",
-    "japaneseName": "中田海斗",
-    "nickname": "Kaito",
-    "occupation": "pro skateboarder",
-    "birthDate": "September 12, 1997",
-    "age": 20,
-    "appearance": [
-      35,
-      49
-    ],
-    "episodes": 15,
-    "series": "Opening New Doors"
-  },
-  {
-    "appearanceNumber": "15",
-    "name": "Maya Kisanuki",
-    "japaneseName": "木佐貫まや",
-    "nickname": "Maya",
-    "occupation": "fashion student, model",
-    "birthDate": "August 16, 1998",
-    "age": 19,
-    "appearance": [
-      35,
-      49
-    ],
-    "episodes": 15,
-    "series": "Opening New Doors"
-  },
-  {
-    "appearanceNumber": "16",
-    "name": "Sota Kono",
-    "japaneseName": "河野聡太",
-    "nickname": "Sota",
-    "occupation": "app developer",
-    "birthDate": "November 5, 1992",
-    "age": 25,
-    "appearance": [
-      35,
-      42
-    ],
-    "episodes": 8,
-    "series": "Opening New Doors"
-  },
-  {
-    "appearanceNumber": "17",
-    "name": "Aio Fukuda",
-    "japaneseName": "福田愛大",
-    "nickname": "Aio",
-    "occupation": "former soccer player",
-    "birthDate": "December 18, 1994",
-    "age": 23,
-    "appearance": [
-      38,
-      49
-    ],
-    "episodes": 12,
-    "series": "Opening New Doors"
-  },
-  {
-    "appearanceNumber": "18",
-    "name": "Risako Tanigawa",
-    "japaneseName": "谷川利沙子",
-    "nickname": "Risako / Richako",
-    "occupation": "print model",
-    "birthDate": "May 29, 1990",
-    "age": 28,
-    "appearance": [
-      38,
-      49
-    ],
-    "episodes": 12,
-    "series": "Opening New Doors"
-  },
-  {
-    "appearanceNumber": "19",
-    "name": "Masao Wada",
-    "japaneseName": "和田理生",
-    "nickname": "Masao",
-    "occupation": "musician (Gesu no Kiwami Otome)",
-    "birthDate": "February 20, 1987",
-    "age": 31,
-    "appearance": [
-      42,
-      49
-    ],
-    "episodes": 8,
-    "series": "Opening New Doors"
-  },
-  {
-    "appearanceNumber": "01",
-    "name": "Lauren Tsai",
-    "japaneseName": "ローレン・サイ",
-    "nickname": "Lauren",
-    "occupation": "aspiring illustrator, model",
-    "birthDate": "February 11, 1998",
-    "age": 18,
-    "appearance": [
-      1,
-      17
-    ],
-    "episodes": 17,
-    "series": "Aloha State"
-  },
-  {
-    "appearanceNumber": "02",
-    "name": "Yuya Shibusawa",
-    "japaneseName": "澁澤侑哉",
-    "nickname": "Yuya",
-    "occupation": "aspiring actor",
-    "birthDate": "January 20, 1998",
-    "age": 18,
-    "appearance": [
-      1,
-      22
-    ],
-    "episodes": 22,
-    "series": "Aloha State"
-  },
-  {
-    "appearanceNumber": "03",
-    "name": "Avian Ku",
-    "japaneseName": "エビアン・クー",
-    "nickname": "Avian",
-    "occupation": "salesclerk",
-    "birthDate": "September 4, 1990",
-    "age": 26,
-    "appearance": [
-      1,
-      22
-    ],
-    "episodes": 22,
-    "series": "Aloha State"
-  },
-  {
-    "appearanceNumber": "04",
-    "name": "Eric De Mendonca",
-    "japaneseName": "エリック デ メンドンサ",
-    "nickname": "Eric",
-    "occupation": "carpenter",
-    "birthDate": "August 11, 1989",
-    "age": 27,
-    "appearance": [
-      1,
-      12
-    ],
-    "episodes": 12,
-    "series": "Aloha State"
-  },
-  {
-    "appearanceNumber": "05",
-    "name": "Naomi Lorraine Frank",
-    "japaneseName": "フランク奈緒美ロレイン",
-    "nickname": "Naomi",
-    "occupation": "undecided",
-    "birthDate": "January 9, 1993",
-    "age": 23,
-    "appearance": [
-      1,
-      10
-    ],
-    "episodes": 10,
-    "series": "Aloha State"
-  },
-  {
-    "appearanceNumber": "06",
-    "name": "Yusuke Aizawa",
-    "japaneseName": "鮎澤悠介",
-    "nickname": "Yusuke/Eden Kai",
-    "occupation": "musician, ukulele player",
-    "birthDate": "September 24, 1998",
-    "age": 18,
-    "appearance": [
-      1,
-      10
-    ],
-    "episodes": 10,
-    "series": "Aloha State"
-  },
-  {
-    "appearanceNumber": "07",
-    "name": "Anna Haneishi",
-    "japaneseName": "羽石杏奈",
-    "nickname": "Anna",
-    "occupation": "part-timer",
-    "birthDate": "September 13, 1994",
-    "age": 22,
-    "appearance": [
-      10,
-      25
-    ],
-    "episodes": 16,
-    "series": "Aloha State"
-  },
-  {
-    "appearanceNumber": "08",
-    "name": "Taishi Tamaki",
-    "japaneseName": "玉城大志",
-    "nickname": "Taishi",
-    "occupation": "actor",
-    "birthDate": "June 21, 1987",
-    "age": 29,
-    "appearance": [
-      10,
-      36
-    ],
-    "episodes": 27,
-    "series": "Aloha State"
-  },
-  {
-    "appearanceNumber": "09",
-    "name": "Guy Sato",
-    "japaneseName": "佐藤魁",
-    "nickname": "Guy",
-    "occupation": "pro surfer",
-    "birthDate": "November 17, 1996",
-    "age": 20,
-    "appearance": [
-      12,
-      30
-    ],
-    "episodes": 19,
-    "series": "Aloha State"
-  },
-  {
-    "appearanceNumber": "10",
-    "name": "Niki Niwa",
-    "japaneseName": "丹羽仁希",
-    "nickname": "Niki",
-    "occupation": "university student",
-    "birthDate": "October 15, 1996",
-    "age": 20,
-    "appearance": [
-      17,
-      25
-    ],
-    "episodes": 9,
-    "series": "Aloha State"
-  },
-  {
-    "appearanceNumber": "11",
-    "name": "Cheri Maria Sumikawa Lavoie",
-    "japaneseName": "シェリ・マリア・澄川・ラボエ",
-    "nickname": "Cheri",
-    "occupation": "realtor",
-    "birthDate": "March 24, 1991",
-    "age": 25,
-    "appearance": [
-      22,
-      36
-    ],
-    "episodes": 15,
-    "series": "Aloha State"
-  },
-  {
-    "appearanceNumber": "12",
-    "name": "Wesley Nakajima",
-    "japaneseName": "中嶋ウェスリー",
-    "nickname": "Wez",
-    "occupation": "rapper",
-    "birthDate": "March 1, 1988",
-    "age": 29,
-    "appearance": [
-      22,
-      36
-    ],
-    "episodes": 15,
-    "series": "Aloha State"
-  },
-  {
-    "appearanceNumber": "13",
-    "name": "Jennifer Mila Hasegawa",
-    "japaneseName": "長谷川 ジェニファー ミラ",
-    "nickname": "Mila",
-    "occupation": "undecided",
-    "birthDate": "July 7, 1997",
-    "age": 19,
-    "appearance": [
-      25,
-      30
-    ],
-    "episodes": 6,
-    "series": "Aloha State"
-  },
-  {
-    "appearanceNumber": "14",
-    "name": "Chikako Fukuyama",
-    "japaneseName": "福山智可子",
-    "nickname": "Chika",
-    "occupation": "spa receptionist",
-    "birthDate": "November 8, 1988",
-    "age": 28,
-    "appearance": [
-      26,
-      36
-    ],
-    "episodes": 11,
-    "series": "Aloha State"
-  },
-  {
-    "appearanceNumber": "15",
-    "name": "Mariko Nitta",
-    "japaneseName": "新田満里子",
-    "nickname": "Mariko",
-    "occupation": "banker",
-    "birthDate": "September 18, 1991",
-    "age": 25,
-    "appearance": [
-      30,
-      36
-    ],
-    "episodes": 7,
-    "series": "Aloha State"
-  },
-  {
-    "appearanceNumber": "16",
-    "name": "Ryo Sekikawa",
-    "japaneseName": "関川良",
-    "nickname": "Ryo",
-    "occupation": "retailer",
-    "birthDate": "December 7, 1990",
-    "age": 26,
-    "appearance": [
-      30,
-      36
-    ],
-    "episodes": 7,
-    "series": "Aloha State"
-  },
-  {
-    "appearanceNumber": "01",
-    "name": "Makoto Hasegawa",
-    "japaneseName": "長谷川慎",
-    "nickname": "Makocchan",
-    "occupation": "university student/baseball player",
-    "birthDate": "November 21, 1993",
-    "age": 22,
-    "appearance": [
-      1,
-      11
-    ],
-    "episodes": 11,
-    "series": "Boys & Girls in the City"
-  },
-  {
-    "appearanceNumber": "02",
-    "name": "Minori Nakada",
-    "japaneseName": "中田みのり",
-    "nickname": "Minori",
-    "occupation": "university student/model",
-    "birthDate": "February 1, 1994",
-    "age": 21,
-    "appearance": [
-      1,
-      24
-    ],
-    "episodes": 24,
-    "series": "Boys & Girls in the City"
-  },
-  {
-    "appearanceNumber": "03",
-    "name": "Yuki Adachi",
-    "japaneseName": "安達雄基",
-    "nickname": "Yuki/Tap",
-    "occupation": "tap dancer",
-    "birthDate": "August 19, 1987",
-    "age": 27,
-    "appearance": [
-      1,
-      17
-    ],
-    "episodes": 17,
-    "series": "Boys & Girls in the City"
-  },
-  {
-    "appearanceNumber": "04",
-    "name": "Mizuki Shida",
-    "japaneseName": "信太美月",
-    "nickname": "Mizuki/Barista",
-    "occupation": "office worker",
-    "birthDate": "December 8, 1992",
-    "age": 22,
-    "appearance": [
-      1,
-      17
-    ],
-    "episodes": 17,
-    "series": "Boys & Girls in the City"
-  },
-  {
-    "appearanceNumber": "05",
-    "name": "Tatsuya Uchihara",
-    "japaneseName": "内原達也",
-    "nickname": "Uchi",
-    "occupation": "hair stylist",
-    "birthDate": "December 22, 1991",
-    "age": 23,
-    "appearance": [
-      1,
-      24
-    ],
-    "episodes": 24,
-    "series": "Boys & Girls in the City"
-  },
-  {
-    "appearanceNumber": "06",
-    "name": "Yuriko Hayata",
-    "japaneseName": "早田悠里子",
-    "nickname": "Yuriko/Yuri",
-    "occupation": "medical student",
-    "birthDate": "April 6, 1992",
-    "age": 23,
-    "appearance": [
-      1,
-      13
-    ],
-    "episodes": 13,
-    "series": "Boys & Girls in the City"
-  },
-  {
-    "appearanceNumber": "07",
-    "name": "Arman Bitaraf",
-    "japaneseName": "ビタラフ・アルマン",
-    "nickname": "Ah-man",
-    "occupation": "aspiring firefighter",
-    "birthDate": "December 4, 1990",
-    "age": 24,
-    "appearance": [
-      11,
-      46
-    ],
-    "episodes": 36,
-    "series": "Boys & Girls in the City"
-  },
-  {
-    "appearanceNumber": "08",
-    "name": "Arisa Ohata",
-    "japaneseName": "大畑ありさ",
-    "nickname": "Arisa",
-    "occupation": "hat designer",
-    "birthDate": "October 5, 1990",
-    "age": 25,
-    "appearance": [
-      13,
-      28
-    ],
-    "episodes": 16,
-    "series": "Boys & Girls in the City"
-  },
-  {
-    "appearanceNumber": "09",
-    "name": "Hikaru Ota",
-    "japaneseName": "太田光る",
-    "nickname": "Hikaru",
-    "occupation": "model",
-    "birthDate": "March 1, 1997",
-    "age": 18,
-    "appearance": [
-      19,
-      32
-    ],
-    "episodes": 14,
-    "series": "Boys & Girls in the City"
-  },
-  {
-    "appearanceNumber": "10",
-    "name": "Natsumi Saito",
-    "japaneseName": "斎藤夏美",
-    "nickname": "Nacchan",
-    "occupation": "model",
-    "birthDate": "July 25, 1989",
-    "age": 26,
-    "appearance": [
-      19,
-      32
-    ],
-    "episodes": 14,
-    "series": "Boys & Girls in the City"
-  },
-  {
-    "appearanceNumber": "11",
-    "name": "Misaki Tamori",
-    "japaneseName": "田森美咲",
-    "nickname": "Tamosan",
-    "occupation": "entertainer (Ebisu Muscats)",
-    "birthDate": "June 25, 1992",
-    "age": 23,
-    "appearance": [
-      24,
-      46
-    ],
-    "episodes": 23,
-    "series": "Boys & Girls in the City"
-  },
-  {
-    "appearanceNumber": "12",
-    "name": "Yuto Handa",
-    "japaneseName": "半田悠人",
-    "nickname": "Han-san",
-    "occupation": "architect",
-    "birthDate": "November 11, 1988",
-    "age": 27,
-    "appearance": [
-      25,
-      35
-    ],
-    "episodes": 11,
-    "series": "Boys & Girls in the City"
-  },
-  {
-    "appearanceNumber": "13",
-    "name": "Riko Nagai",
-    "japaneseName": "永井理子",
-    "nickname": "Rikopin",
-    "occupation": "high school student/gravure model",
-    "birthDate": "December 21, 1997",
-    "age": 18,
-    "appearance": [
-      29,
-      46
-    ],
-    "episodes": 18,
-    "series": "Boys & Girls in the City"
-  },
-  {
-    "appearanceNumber": "14",
-    "name": "Momoka Mitsunaga",
-    "japaneseName": "光永百花",
-    "nickname": "Momo-chan",
-    "occupation": "ballerina",
-    "birthDate": "May 11, 1995",
-    "age": 20,
-    "appearance": [
-      32,
-      39
-    ],
-    "episodes": 8,
-    "series": "Boys & Girls in the City"
-  },
-  {
-    "appearanceNumber": "15",
-    "name": "Hayato Terashima",
-    "japaneseName": "寺島速人",
-    "nickname": "Hayato-kun",
-    "occupation": "chef apprentice",
-    "birthDate": "January 27, 1987",
-    "age": 29,
-    "appearance": [
-      32,
-      46
-    ],
-    "episodes": 15,
-    "series": "Boys & Girls in the City"
-  },
-  {
-    "appearanceNumber": "16",
-    "name": "Yuuki Byrnes",
-    "japaneseName": "バーンズ勇気",
-    "nickname": "Byrnes",
-    "occupation": "hip hop dancer",
-    "birthDate": "December 27, 1992",
-    "age": 23,
-    "appearance": [
-      36,
-      46
-    ],
-    "episodes": 11,
-    "series": "Boys & Girls in the City"
-  },
-  {
-    "appearanceNumber": "17",
-    "name": "Masako Endo",
-    "japaneseName": "遠藤政子",
-    "nickname": "Martha",
-    "occupation": "model",
-    "birthDate": "August 9, 1993",
-    "age": 23,
-    "appearance": [
-      39,
-      46
-    ],
-    "episodes": 8,
-    "series": "Boys & Girls in the City"
-  },
-  {
-    "appearanceNumber": "01",
-    "name": "Tetsuya Sugaya",
-    "japaneseName": "菅谷哲也",
-    "nickname": "Tecchan, Tetsu",
-    "occupation": "aspiring firefighter",
-    "birthDate": "July 28, 1993",
-    "age": null,
-    "appearance": [
-      1,
-      98
-    ],
-    "episodes": 98,
-    "series": "Boys x Girls Next Door"
-  },
-  {
-    "appearanceNumber": "02",
-    "name": "Seina Shimabukuro[2]",
-    "japaneseName": "島袋聖南",
-    "nickname": "Seinasan",
-    "occupation": "model",
-    "birthDate": "April 4, 1987",
-    "age": null,
-    "appearance": [
-      1,
-      29,
-      65,
-      98
-    ],
-    "episodes": 62,
-    "series": "Boys x Girls Next Door"
-  },
-  {
-    "appearanceNumber": "03",
-    "name": "Rie Kitahara",
-    "japaneseName": "北原里英",
-    "nickname": "Ricchan",
-    "occupation": "idol (AKB48)",
-    "birthDate": "June 24, 1991",
-    "age": null,
-    "appearance": [
-      1,
-      12
-    ],
-    "episodes": 12,
-    "series": "Boys x Girls Next Door"
-  },
-  {
-    "appearanceNumber": "04",
-    "name": "Masato Yukawa",
-    "japaneseName": "湯川正人",
-    "nickname": "Makun",
-    "occupation": "pro surfer",
-    "birthDate": "January 10, 1992",
-    "age": null,
-    "appearance": [
-      1,
-      12
-    ],
-    "episodes": 12,
-    "series": "Boys x Girls Next Door"
-  },
-  {
-    "appearanceNumber": "05",
-    "name": "Shota Nakatsugawa",
-    "japaneseName": "中津川翔太",
-    "nickname": "Shokun",
-    "occupation": "university student",
-    "birthDate": "November 18, 1987",
-    "age": null,
-    "appearance": [
-      1,
-      15
-    ],
-    "episodes": 15,
-    "series": "Boys x Girls Next Door"
-  },
-  {
-    "appearanceNumber": "06",
-    "name": "Momoko Takeuchi",
-    "japaneseName": "竹内桃子",
-    "nickname": "Momochan, Chanmomo",
-    "occupation": "aspiring author",
-    "birthDate": "June 14, 1991",
-    "age": null,
-    "appearance": [
-      1,
-      25
-    ],
-    "episodes": 25,
-    "series": "Boys x Girls Next Door"
-  },
-  {
-    "appearanceNumber": "07",
-    "name": "Hana Imai",
-    "japaneseName": "今井華",
-    "nickname": "Hanachan",
-    "occupation": "gyaru model",
-    "birthDate": "November 12, 1992",
-    "age": null,
-    "appearance": [
-      14,
-      38
-    ],
-    "episodes": 24,
-    "series": "Boys x Girls Next Door"
-  },
-  {
-    "appearanceNumber": "08",
-    "name": "Dyki Miyagi",
-    "japaneseName": "宮城大樹",
-    "nickname": "Dykikun",
-    "occupation": "kickboxer",
-    "birthDate": "January 23, 1990",
-    "age": null,
-    "appearance": [
-      16,
-      61
-    ],
-    "episodes": 45,
-    "series": "Boys x Girls Next Door"
-  },
-  {
-    "appearanceNumber": "09",
-    "name": "Tetsuya Iwanaga",
-    "japaneseName": "岩永徹也",
-    "nickname": "Oji",
-    "occupation": "pharmacist",
-    "birthDate": "October 16, 1986",
-    "age": null,
-    "appearance": [
-      19,
-      38
-    ],
-    "episodes": 19,
-    "series": "Boys x Girls Next Door"
-  },
-  {
-    "appearanceNumber": "10",
-    "name": "Aya Kondou",
-    "japaneseName": "近藤あや",
-    "nickname": "Ayachan",
-    "occupation": "university student",
-    "birthDate": "November 10, 1991",
-    "age": null,
-    "appearance": [
-      27,
-      38
-    ],
-    "episodes": 11,
-    "series": "Boys x Girls Next Door"
-  },
-  {
-    "appearanceNumber": "11",
-    "name": "Miwako Kakei",
-    "japaneseName": "筧美和子",
-    "nickname": "Miko, Michan, Miwachan",
-    "occupation": "gravure idol",
-    "birthDate": "March 6, 1994",
-    "age": null,
-    "appearance": [
-      29,
-      61
-    ],
-    "episodes": 32,
-    "series": "Boys x Girls Next Door"
-  },
-  {
-    "appearanceNumber": "12",
-    "name": "Midori Takechi",
-    "japaneseName": "武智ミドリ",
-    "nickname": "Me",
-    "occupation": "freeter",
-    "birthDate": "August 20, 1992",
-    "age": null,
-    "appearance": [
-      39,
-      50
-    ],
-    "episodes": 11,
-    "series": "Boys x Girls Next Door"
-  },
-  {
-    "appearanceNumber": "13",
-    "name": "Rina Sumioka",
-    "japaneseName": "住岡梨奈",
-    "nickname": "Rinati",
-    "occupation": "musician",
-    "birthDate": "February 15, 1990",
-    "age": null,
-    "appearance": [
-      39,
-      65
-    ],
-    "episodes": 26,
-    "series": "Boys x Girls Next Door"
-  },
-  {
-    "appearanceNumber": "14",
-    "name": "Yosuke Imai",
-    "japaneseName": "今井洋介",
-    "nickname": "Yosan",
-    "occupation": "photographer",
-    "birthDate": "October 29, 1984",
-    "age": null,
-    "appearance": [
-      39,
-      74
-    ],
-    "episodes": 35,
-    "series": "Boys x Girls Next Door"
-  },
-  {
-    "appearanceNumber": "15",
-    "name": "Mai Nagatani",
-    "japaneseName": "永谷真絵",
-    "nickname": "Maimai, Chay",
-    "occupation": "musician",
-    "birthDate": "October 23, 1990",
-    "age": null,
-    "appearance": [
-      51,
-      74
-    ],
-    "episodes": 23,
-    "series": "Boys x Girls Next Door"
-  },
-  {
-    "appearanceNumber": "16",
-    "name": "Chie Onuki",
-    "japaneseName": "小貫智恵",
-    "nickname": "Chichan",
-    "occupation": "university student",
-    "birthDate": "July 4, 1990",
-    "age": null,
-    "appearance": [
-      63,
-      74
-    ],
-    "episodes": 11,
-    "series": "Boys x Girls Next Door"
-  },
-  {
-    "appearanceNumber": "17",
-    "name": "Ippei Shima",
-    "japaneseName": "島一平",
-    "nickname": "Ippeichan",
-    "occupation": "comedian (Earth)",
-    "birthDate": "July 18, 1984",
-    "age": null,
-    "appearance": [
-      63,
-      87
-    ],
-    "episodes": 24,
-    "series": "Boys x Girls Next Door"
-  },
-  {
-    "appearanceNumber": "18",
-    "name": "Frances Cihi",
-    "japaneseName": "フランセス・スィーヒ",
-    "nickname": "Frankie",
-    "occupation": "painter",
-    "birthDate": "May 27, 1988",
-    "age": null,
-    "appearance": [
-      75,
-      87
-    ],
-    "episodes": 12,
-    "series": "Boys x Girls Next Door"
-  },
-  {
-    "appearanceNumber": "19",
-    "name": "Ryoko Hirasawa",
-    "japaneseName": "平澤遼子",
-    "nickname": "Ryochan",
-    "occupation": "company employee",
-    "birthDate": "September 25, 1989",
-    "age": null,
-    "appearance": [
-      75,
-      98
-    ],
-    "episodes": 23,
-    "series": "Boys x Girls Next Door"
-  },
-  {
-    "appearanceNumber": "20",
-    "name": "Kenya Yasuda",
-    "japaneseName": "保田賢也",
-    "nickname": "Kenken",
-    "occupation": "water polo player",
-    "birthDate": "March 29, 1989",
-    "age": null,
-    "appearance": [
-      75,
-      98
-    ],
-    "episodes": 23,
-    "series": "Boys x Girls Next Door"
-  },
-  {
-    "appearanceNumber": "21",
-    "name": "Michiko Yamanaka",
-    "japaneseName": "山中美智子",
-    "nickname": "Michan",
-    "occupation": "manager, designer",
-    "birthDate": "November 29, 1985",
-    "age": null,
-    "appearance": [
-      87,
-      98
-    ],
-    "episodes": 11,
-    "series": "Boys x Girls Next Door"
-  },
-  {
-    "appearanceNumber": "22",
-    "name": "Daiki Ito",
-    "japaneseName": "伊東大輝",
-    "nickname": "Daiki",
-    "occupation": "windsurfer",
-    "birthDate": "January 19, 1994",
-    "age": null,
-    "appearance": [
-      88,
-      98
-    ],
-    "episodes": 10,
-    "series": "Boys x Girls Next Door"
+      "appearanceNumber": 1,
+      "name": "Kaori Watanabe",
+      "japaneseName": "渡邉香織",
+      "nickname": "",
+      "occupation": "Illustrator",
+      "birthDate": "June 25, 1990",
+      "age": 28,
+      "appearance": [
+          1,
+          20
+      ],
+      "episodes": 20,
+      "series": "Tokyo 2019-2020"
+  },
+  {
+      "appearanceNumber": 2,
+      "name": "Shohei Matsuzaki",
+      "japaneseName": "松嵜翔平",
+      "nickname": "",
+      "occupation": "Actor/Writer",
+      "birthDate": "October 9, 1993",
+      "age": 25,
+      "appearance": [
+          1,
+          18
+      ],
+      "episodes": 18,
+      "series": "Tokyo 2019-2020"
+  },
+  {
+      "appearanceNumber": 3,
+      "name": "Haruka Okuyama",
+      "japaneseName": "奥山春花",
+      "nickname": "",
+      "occupation": "Actress",
+      "birthDate": "March 24, 1995",
+      "age": 24,
+      "appearance": [
+          1,
+          25
+      ],
+      "episodes": 25,
+      "series": "Tokyo 2019-2020"
+  },
+  {
+      "appearanceNumber": 4,
+      "name": "Kenji Yoshihara",
+      "japaneseName": "吉原健司",
+      "nickname": "Kenny",
+      "occupation": "Musician",
+      "birthDate": "June 2, 1987",
+      "age": 31,
+      "appearance": [
+          1,
+          14
+      ],
+      "episodes": 14,
+      "series": "Tokyo 2019-2020"
+  },
+  {
+      "appearanceNumber": 5,
+      "name": "Risako Tanabe",
+      "japaneseName": "田辺莉咲子",
+      "nickname": "",
+      "occupation": "Fitness trainer",
+      "birthDate": "January 14, 1998",
+      "age": 21,
+      "appearance": [
+          1,
+          14
+      ],
+      "episodes": 14,
+      "series": "Tokyo 2019-2020"
+  },
+  {
+      "appearanceNumber": 6,
+      "name": "Ruka Nishinoiri",
+      "japaneseName": "西野入流佳",
+      "nickname": "",
+      "occupation": "Part-timer",
+      "birthDate": "December 1, 1998",
+      "age": 20,
+      "appearance": [
+          1,
+          25
+      ],
+      "episodes": 25,
+      "series": "Tokyo 2019-2020"
+  },
+  {
+      "appearanceNumber": 7,
+      "name": "Emika Mizukoshi",
+      "japaneseName": "水越愛華",
+      "nickname": "",
+      "occupation": "University student",
+      "birthDate": "February 1, 1998",
+      "age": 21,
+      "appearance": [
+          14,
+          34
+      ],
+      "episodes": 21,
+      "series": "Tokyo 2019-2020"
+  },
+  {
+      "appearanceNumber": 8,
+      "name": "Giuseppe Durato",
+      "japaneseName": "デュラト・ジュゼッペ",
+      "nickname": "Peppe",
+      "occupation": "Manga artist",
+      "birthDate": "December 24, 1992",
+      "age": 27,
+      "appearance": [
+          14,
+          26
+      ],
+      "episodes": 13,
+      "series": "Tokyo 2019-2020"
+  },
+  {
+      "appearanceNumber": 9,
+      "name": "Ryo Tawatari",
+      "japaneseName": "田渡凌",
+      "nickname": "",
+      "occupation": "Basketball player (Yokohama B-Corsairs)",
+      "birthDate": "June 29, 1993",
+      "age": 26,
+      "appearance": [
+          18,
+          32
+      ],
+      "episodes": 15,
+      "series": "Tokyo 2019-2020"
+  },
+  {
+      "appearanceNumber": 10,
+      "name": "Hana Kimura",
+      "japaneseName": "木村花",
+      "nickname": "",
+      "occupation": "Professional wrestler",
+      "birthDate": "September 3, 1997",
+      "age": 21,
+      "appearance": [
+          20,
+          42
+      ],
+      "episodes": 23,
+      "series": "Tokyo 2019-2020"
+  },
+  {
+      "appearanceNumber": 11,
+      "name": "Violetta Razdumina",
+      "japaneseName": "ラズドゥミナ・ヴィオレッタ",
+      "nickname": "Vivi",
+      "occupation": "Aspiring actress",
+      "birthDate": "October 4, 1995",
+      "age": 24,
+      "appearance": [
+          26,
+          42
+      ],
+      "episodes": 17,
+      "series": "Tokyo 2019-2020"
+  },
+  {
+      "appearanceNumber": 12,
+      "name": "Kai Kobayashi",
+      "japaneseName": "小林快",
+      "nickname": "",
+      "occupation": "Comedian",
+      "birthDate": "August 15, 1994",
+      "age": 25,
+      "appearance": [
+          26,
+          39
+      ],
+      "episodes": 14,
+      "series": "Tokyo 2019-2020"
+  },
+  {
+      "appearanceNumber": 13,
+      "name": "John Kimverlu Tupas",
+      "japaneseName": "トパス　ジョンキンバルー",
+      "nickname": "Tupas",
+      "occupation": "Lily Franky's personal assistant",
+      "birthDate": "January 13, 1997",
+      "age": 22,
+      "appearance": [
+          26,
+          34
+      ],
+      "episodes": 9,
+      "series": "Tokyo 2019-2020"
+  },
+  {
+      "appearanceNumber": 14,
+      "name": "Toshiyuki Niino",
+      "japaneseName": "新野俊幸",
+      "nickname": "Shachō (社長, \"Boss\")",
+      "occupation": "CEO of EXIT Inc.",
+      "birthDate": "October 21, 1989",
+      "age": 30,
+      "appearance": [
+          33,
+          42
+      ],
+      "episodes": 10,
+      "series": "Tokyo 2019-2020"
+  },
+  {
+      "appearanceNumber": 15,
+      "name": "Yume Hayashi",
+      "japaneseName": "林ゆめ",
+      "nickname": "",
+      "occupation": "Office worker/Gravure model",
+      "birthDate": "October 18, 1995",
+      "age": 24,
+      "appearance": [
+          34,
+          42
+      ],
+      "episodes": 9,
+      "series": "Tokyo 2019-2020"
+  },
+  {
+      "appearanceNumber": 16,
+      "name": "Shion Suzuki",
+      "japaneseName": "鈴木志遠",
+      "nickname": "",
+      "occupation": "University student",
+      "birthDate": "February 1, 1997",
+      "age": 22,
+      "appearance": [
+          34,
+          42
+      ],
+      "episodes": 9,
+      "series": "Tokyo 2019-2020"
+  },
+  {
+      "appearanceNumber": 17,
+      "name": "Reo Kanao",
+      "japaneseName": "金尾玲生",
+      "nickname": "",
+      "occupation": "Professional surfer/Entrepreneur",
+      "birthDate": "June 24, 1992",
+      "age": 27,
+      "appearance": [
+          39,
+          42
+      ],
+      "episodes": 4,
+      "series": "Tokyo 2019-2020"
+  },
+  {
+      "appearanceNumber": 18,
+      "name": "Monroe Ron",
+      "japaneseName": "ロンモンロウ",
+      "nickname": "",
+      "occupation": "Model/Singer",
+      "birthDate": "July 31, 1995",
+      "age": 24,
+      "appearance": [
+          42,
+          42
+      ],
+      "episodes": 1,
+      "series": "Tokyo 2019-2020"
+  },
+  {
+      "appearanceNumber": 1,
+      "name": "Ami Komuro",
+      "japaneseName": "小室安未",
+      "nickname": "Ami",
+      "occupation": "university student / aspiring model",
+      "birthDate": "January 19, 1997",
+      "age": 21,
+      "appearance": [
+          1,
+          17
+      ],
+      "episodes": 17,
+      "series": "Opening New Doors"
+  },
+  {
+      "appearanceNumber": 2,
+      "name": "Yuudai Arai",
+      "japaneseName": "新井雄大",
+      "nickname": "Yuudai",
+      "occupation": "aspiring chef",
+      "birthDate": "April 8, 1998",
+      "age": 19,
+      "appearance": [
+          1,
+          9
+      ],
+      "episodes": 9,
+      "series": "Opening New Doors"
+  },
+  {
+      "appearanceNumber": 3,
+      "name": "Mizuki Haruta",
+      "japaneseName": "治田みずき",
+      "nickname": "Miju",
+      "occupation": "digital content editor / interpreter / online lingerie store owner",
+      "birthDate": "June 30, 1991",
+      "age": 26,
+      "appearance": [
+          1,
+          9
+      ],
+      "episodes": 9,
+      "series": "Opening New Doors"
+  },
+  {
+      "appearanceNumber": 4,
+      "name": "Takayuki Nakamura",
+      "japaneseName": "中村貴之",
+      "nickname": "Taka",
+      "occupation": "professional snowboarder",
+      "birthDate": "May 25, 1986",
+      "age": 31,
+      "appearance": [
+          1,
+          34
+      ],
+      "episodes": 34,
+      "series": "Opening New Doors"
+  },
+  {
+      "appearanceNumber": 5,
+      "name": "Tsubasa Sato",
+      "japaneseName": "佐藤つば冴",
+      "nickname": "Tsu-chan / Captain Tsubasa",
+      "occupation": "ice hockey player",
+      "birthDate": "September 28, 1993",
+      "age": 25,
+      "appearance": [
+          1,
+          21
+      ],
+      "episodes": 21,
+      "series": "Opening New Doors"
+  },
+  {
+      "appearanceNumber": 6,
+      "name": "Shion \"Sean\" Okamoto",
+      "japaneseName": "岡本至恩",
+      "nickname": "Shion",
+      "occupation": "model",
+      "birthDate": "January 13, 1995",
+      "age": 23,
+      "appearance": [
+          1,
+          21
+      ],
+      "episodes": 21,
+      "series": "Opening New Doors"
+  },
+  {
+      "appearanceNumber": 7,
+      "name": "Shohei Uemura",
+      "japaneseName": "上村翔平",
+      "nickname": "Shohei",
+      "occupation": "musician / vocalist",
+      "birthDate": "July 16, 1989",
+      "age": 28,
+      "appearance": [
+          10,
+          31
+      ],
+      "episodes": 22,
+      "series": "Opening New Doors"
+  },
+  {
+      "appearanceNumber": 8,
+      "name": "Seina Shimabukuro",
+      "japaneseName": "島袋聖南",
+      "nickname": "Seina",
+      "occupation": "model",
+      "birthDate": "April 4, 1987",
+      "age": 30,
+      "appearance": [
+          10,
+          34
+      ],
+      "episodes": 25,
+      "series": "Opening New Doors"
+  },
+  {
+      "appearanceNumber": 9,
+      "name": "Mayu Koseta",
+      "japaneseName": "小瀬田麻由",
+      "nickname": "Mayu",
+      "occupation": "gravure model",
+      "birthDate": "November 12, 1994",
+      "age": 23,
+      "appearance": [
+          17,
+          26
+      ],
+      "episodes": 10,
+      "series": "Opening New Doors"
+  },
+  {
+      "appearanceNumber": 10,
+      "name": "Yui Tanaka",
+      "japaneseName": "田中優衣",
+      "nickname": "Yui",
+      "occupation": "university student",
+      "birthDate": "December 24, 1996",
+      "age": 21,
+      "appearance": [
+          22,
+          49
+      ],
+      "episodes": 28,
+      "series": "Opening New Doors"
+  },
+  {
+      "appearanceNumber": 11,
+      "name": "Noah Ishikura",
+      "japaneseName": "石倉ノア",
+      "nickname": "Noah",
+      "occupation": "aspiring pilot",
+      "birthDate": "November 19, 1996",
+      "age": 21,
+      "appearance": [
+          22,
+          34
+      ],
+      "episodes": 13,
+      "series": "Opening New Doors"
+  },
+  {
+      "appearanceNumber": 12,
+      "name": "Aya Matarai",
+      "japaneseName": "又来綾",
+      "nickname": "Aya",
+      "occupation": "university student",
+      "birthDate": "December 29, 1997",
+      "age": 20,
+      "appearance": [
+          26,
+          38
+      ],
+      "episodes": 13,
+      "series": "Opening New Doors"
+  },
+  {
+      "appearanceNumber": 13,
+      "name": "Shunsuke Ikezoe",
+      "japaneseName": "池添俊亮",
+      "nickname": "Shunsuke",
+      "occupation": "aspiring hair & makeup artist",
+      "birthDate": "April 27, 1997",
+      "age": 21,
+      "appearance": [
+          32,
+          38
+      ],
+      "episodes": 7,
+      "series": "Opening New Doors"
+  },
+  {
+      "appearanceNumber": 14,
+      "name": "Kaito Nakata",
+      "japaneseName": "中田海斗",
+      "nickname": "Kaito",
+      "occupation": "pro skateboarder",
+      "birthDate": "September 12, 1997",
+      "age": 20,
+      "appearance": [
+          35,
+          49
+      ],
+      "episodes": 15,
+      "series": "Opening New Doors"
+  },
+  {
+      "appearanceNumber": 15,
+      "name": "Maya Kisanuki",
+      "japaneseName": "木佐貫まや",
+      "nickname": "Maya",
+      "occupation": "fashion student, model",
+      "birthDate": "August 16, 1998",
+      "age": 19,
+      "appearance": [
+          35,
+          49
+      ],
+      "episodes": 15,
+      "series": "Opening New Doors"
+  },
+  {
+      "appearanceNumber": 16,
+      "name": "Sota Kono",
+      "japaneseName": "河野聡太",
+      "nickname": "Sota",
+      "occupation": "app developer",
+      "birthDate": "November 5, 1992",
+      "age": 25,
+      "appearance": [
+          35,
+          42
+      ],
+      "episodes": 8,
+      "series": "Opening New Doors"
+  },
+  {
+      "appearanceNumber": 17,
+      "name": "Aio Fukuda",
+      "japaneseName": "福田愛大",
+      "nickname": "Aio",
+      "occupation": "former soccer player",
+      "birthDate": "December 18, 1994",
+      "age": 23,
+      "appearance": [
+          38,
+          49
+      ],
+      "episodes": 12,
+      "series": "Opening New Doors"
+  },
+  {
+      "appearanceNumber": 18,
+      "name": "Risako Tanigawa",
+      "japaneseName": "谷川利沙子",
+      "nickname": "Risako / Richako",
+      "occupation": "print model",
+      "birthDate": "May 29, 1990",
+      "age": 28,
+      "appearance": [
+          38,
+          49
+      ],
+      "episodes": 12,
+      "series": "Opening New Doors"
+  },
+  {
+      "appearanceNumber": 19,
+      "name": "Masao Wada",
+      "japaneseName": "和田理生",
+      "nickname": "Masao",
+      "occupation": "musician (Gesu no Kiwami Otome)",
+      "birthDate": "February 20, 1987",
+      "age": 31,
+      "appearance": [
+          42,
+          49
+      ],
+      "episodes": 8,
+      "series": "Opening New Doors"
+  },
+  {
+      "appearanceNumber": 1,
+      "name": "Lauren Tsai",
+      "japaneseName": "ローレン・サイ",
+      "nickname": "Lauren",
+      "occupation": "aspiring illustrator, model",
+      "birthDate": "February 11, 1998",
+      "age": 18,
+      "appearance": [
+          1,
+          17
+      ],
+      "episodes": 17,
+      "series": "Aloha State"
+  },
+  {
+      "appearanceNumber": 2,
+      "name": "Yuya Shibusawa",
+      "japaneseName": "澁澤侑哉",
+      "nickname": "Yuya",
+      "occupation": "aspiring actor",
+      "birthDate": "January 20, 1998",
+      "age": 18,
+      "appearance": [
+          1,
+          22
+      ],
+      "episodes": 22,
+      "series": "Aloha State"
+  },
+  {
+      "appearanceNumber": 3,
+      "name": "Avian Ku",
+      "japaneseName": "エビアン・クー",
+      "nickname": "Avian",
+      "occupation": "salesclerk",
+      "birthDate": "September 4, 1990",
+      "age": 26,
+      "appearance": [
+          1,
+          22
+      ],
+      "episodes": 22,
+      "series": "Aloha State"
+  },
+  {
+      "appearanceNumber": 4,
+      "name": "Eric De Mendonca",
+      "japaneseName": "エリック デ メンドンサ",
+      "nickname": "Eric",
+      "occupation": "carpenter",
+      "birthDate": "August 11, 1989",
+      "age": 27,
+      "appearance": [
+          1,
+          12
+      ],
+      "episodes": 12,
+      "series": "Aloha State"
+  },
+  {
+      "appearanceNumber": 5,
+      "name": "Naomi Lorraine Frank",
+      "japaneseName": "フランク奈緒美ロレイン",
+      "nickname": "Naomi",
+      "occupation": "undecided",
+      "birthDate": "January 9, 1993",
+      "age": 23,
+      "appearance": [
+          1,
+          10
+      ],
+      "episodes": 10,
+      "series": "Aloha State"
+  },
+  {
+      "appearanceNumber": 6,
+      "name": "Yusuke Aizawa",
+      "japaneseName": "鮎澤悠介",
+      "nickname": "Yusuke/Eden Kai",
+      "occupation": "musician, ukulele player",
+      "birthDate": "September 24, 1998",
+      "age": 18,
+      "appearance": [
+          1,
+          10
+      ],
+      "episodes": 10,
+      "series": "Aloha State"
+  },
+  {
+      "appearanceNumber": 7,
+      "name": "Anna Haneishi",
+      "japaneseName": "羽石杏奈",
+      "nickname": "Anna",
+      "occupation": "part-timer",
+      "birthDate": "September 13, 1994",
+      "age": 22,
+      "appearance": [
+          10,
+          25
+      ],
+      "episodes": 16,
+      "series": "Aloha State"
+  },
+  {
+      "appearanceNumber": 8,
+      "name": "Taishi Tamaki",
+      "japaneseName": "玉城大志",
+      "nickname": "Taishi",
+      "occupation": "actor",
+      "birthDate": "June 21, 1987",
+      "age": 29,
+      "appearance": [
+          10,
+          36
+      ],
+      "episodes": 27,
+      "series": "Aloha State"
+  },
+  {
+      "appearanceNumber": 9,
+      "name": "Guy Sato",
+      "japaneseName": "佐藤魁",
+      "nickname": "Guy",
+      "occupation": "pro surfer",
+      "birthDate": "November 17, 1996",
+      "age": 20,
+      "appearance": [
+          12,
+          30
+      ],
+      "episodes": 19,
+      "series": "Aloha State"
+  },
+  {
+      "appearanceNumber": 10,
+      "name": "Niki Niwa",
+      "japaneseName": "丹羽仁希",
+      "nickname": "Niki",
+      "occupation": "university student",
+      "birthDate": "October 15, 1996",
+      "age": 20,
+      "appearance": [
+          17,
+          25
+      ],
+      "episodes": 9,
+      "series": "Aloha State"
+  },
+  {
+      "appearanceNumber": 11,
+      "name": "Cheri Maria Sumikawa Lavoie",
+      "japaneseName": "シェリ・マリア・澄川・ラボエ",
+      "nickname": "Cheri",
+      "occupation": "realtor",
+      "birthDate": "March 24, 1991",
+      "age": 25,
+      "appearance": [
+          22,
+          36
+      ],
+      "episodes": 15,
+      "series": "Aloha State"
+  },
+  {
+      "appearanceNumber": 12,
+      "name": "Wesley Nakajima",
+      "japaneseName": "中嶋ウェスリー",
+      "nickname": "Wez",
+      "occupation": "rapper",
+      "birthDate": "March 1, 1988",
+      "age": 29,
+      "appearance": [
+          22,
+          36
+      ],
+      "episodes": 15,
+      "series": "Aloha State"
+  },
+  {
+      "appearanceNumber": 13,
+      "name": "Jennifer Mila Hasegawa",
+      "japaneseName": "長谷川 ジェニファー ミラ",
+      "nickname": "Mila",
+      "occupation": "undecided",
+      "birthDate": "July 7, 1997",
+      "age": 19,
+      "appearance": [
+          25,
+          30
+      ],
+      "episodes": 6,
+      "series": "Aloha State"
+  },
+  {
+      "appearanceNumber": 14,
+      "name": "Chikako Fukuyama",
+      "japaneseName": "福山智可子",
+      "nickname": "Chika",
+      "occupation": "spa receptionist",
+      "birthDate": "November 8, 1988",
+      "age": 28,
+      "appearance": [
+          26,
+          36
+      ],
+      "episodes": 11,
+      "series": "Aloha State"
+  },
+  {
+      "appearanceNumber": 15,
+      "name": "Mariko Nitta",
+      "japaneseName": "新田満里子",
+      "nickname": "Mariko",
+      "occupation": "banker",
+      "birthDate": "September 18, 1991",
+      "age": 25,
+      "appearance": [
+          30,
+          36
+      ],
+      "episodes": 7,
+      "series": "Aloha State"
+  },
+  {
+      "appearanceNumber": 16,
+      "name": "Ryo Sekikawa",
+      "japaneseName": "関川良",
+      "nickname": "Ryo",
+      "occupation": "retailer",
+      "birthDate": "December 7, 1990",
+      "age": 26,
+      "appearance": [
+          30,
+          36
+      ],
+      "episodes": 7,
+      "series": "Aloha State"
+  },
+  {
+      "appearanceNumber": 1,
+      "name": "Makoto Hasegawa",
+      "japaneseName": "長谷川慎",
+      "nickname": "Makocchan",
+      "occupation": "university student/baseball player",
+      "birthDate": "November 21, 1993",
+      "age": 22,
+      "appearance": [
+          1,
+          11
+      ],
+      "episodes": 11,
+      "series": "Boys & Girls in the City"
+  },
+  {
+      "appearanceNumber": 2,
+      "name": "Minori Nakada",
+      "japaneseName": "中田みのり",
+      "nickname": "Minori",
+      "occupation": "university student/model",
+      "birthDate": "February 1, 1994",
+      "age": 21,
+      "appearance": [
+          1,
+          24
+      ],
+      "episodes": 24,
+      "series": "Boys & Girls in the City"
+  },
+  {
+      "appearanceNumber": 3,
+      "name": "Yuki Adachi",
+      "japaneseName": "安達雄基",
+      "nickname": "Yuki/Tap",
+      "occupation": "tap dancer",
+      "birthDate": "August 19, 1987",
+      "age": 27,
+      "appearance": [
+          1,
+          17
+      ],
+      "episodes": 17,
+      "series": "Boys & Girls in the City"
+  },
+  {
+      "appearanceNumber": 4,
+      "name": "Mizuki Shida",
+      "japaneseName": "信太美月",
+      "nickname": "Mizuki/Barista",
+      "occupation": "office worker",
+      "birthDate": "December 8, 1992",
+      "age": 22,
+      "appearance": [
+          1,
+          17
+      ],
+      "episodes": 17,
+      "series": "Boys & Girls in the City"
+  },
+  {
+      "appearanceNumber": 5,
+      "name": "Tatsuya Uchihara",
+      "japaneseName": "内原達也",
+      "nickname": "Uchi",
+      "occupation": "hair stylist",
+      "birthDate": "December 22, 1991",
+      "age": 23,
+      "appearance": [
+          1,
+          24
+      ],
+      "episodes": 24,
+      "series": "Boys & Girls in the City"
+  },
+  {
+      "appearanceNumber": 6,
+      "name": "Yuriko Hayata",
+      "japaneseName": "早田悠里子",
+      "nickname": "Yuriko/Yuri",
+      "occupation": "medical student",
+      "birthDate": "April 6, 1992",
+      "age": 23,
+      "appearance": [
+          1,
+          13
+      ],
+      "episodes": 13,
+      "series": "Boys & Girls in the City"
+  },
+  {
+      "appearanceNumber": 7,
+      "name": "Arman Bitaraf",
+      "japaneseName": "ビタラフ・アルマン",
+      "nickname": "Ah-man",
+      "occupation": "aspiring firefighter",
+      "birthDate": "December 4, 1990",
+      "age": 24,
+      "appearance": [
+          11,
+          46
+      ],
+      "episodes": 36,
+      "series": "Boys & Girls in the City"
+  },
+  {
+      "appearanceNumber": 8,
+      "name": "Arisa Ohata",
+      "japaneseName": "大畑ありさ",
+      "nickname": "Arisa",
+      "occupation": "hat designer",
+      "birthDate": "October 5, 1990",
+      "age": 25,
+      "appearance": [
+          13,
+          28
+      ],
+      "episodes": 16,
+      "series": "Boys & Girls in the City"
+  },
+  {
+      "appearanceNumber": 9,
+      "name": "Hikaru Ota",
+      "japaneseName": "太田光る",
+      "nickname": "Hikaru",
+      "occupation": "model",
+      "birthDate": "March 1, 1997",
+      "age": 18,
+      "appearance": [
+          19,
+          32
+      ],
+      "episodes": 14,
+      "series": "Boys & Girls in the City"
+  },
+  {
+      "appearanceNumber": 10,
+      "name": "Natsumi Saito",
+      "japaneseName": "斎藤夏美",
+      "nickname": "Nacchan",
+      "occupation": "model",
+      "birthDate": "July 25, 1989",
+      "age": 26,
+      "appearance": [
+          19,
+          32
+      ],
+      "episodes": 14,
+      "series": "Boys & Girls in the City"
+  },
+  {
+      "appearanceNumber": 11,
+      "name": "Misaki Tamori",
+      "japaneseName": "田森美咲",
+      "nickname": "Tamosan",
+      "occupation": "entertainer (Ebisu Muscats)",
+      "birthDate": "June 25, 1992",
+      "age": 23,
+      "appearance": [
+          24,
+          46
+      ],
+      "episodes": 23,
+      "series": "Boys & Girls in the City"
+  },
+  {
+      "appearanceNumber": 12,
+      "name": "Yuto Handa",
+      "japaneseName": "半田悠人",
+      "nickname": "Han-san",
+      "occupation": "architect",
+      "birthDate": "November 11, 1988",
+      "age": 27,
+      "appearance": [
+          25,
+          35
+      ],
+      "episodes": 11,
+      "series": "Boys & Girls in the City"
+  },
+  {
+      "appearanceNumber": 13,
+      "name": "Riko Nagai",
+      "japaneseName": "永井理子",
+      "nickname": "Rikopin",
+      "occupation": "high school student/gravure model",
+      "birthDate": "December 21, 1997",
+      "age": 18,
+      "appearance": [
+          29,
+          46
+      ],
+      "episodes": 18,
+      "series": "Boys & Girls in the City"
+  },
+  {
+      "appearanceNumber": 14,
+      "name": "Momoka Mitsunaga",
+      "japaneseName": "光永百花",
+      "nickname": "Momo-chan",
+      "occupation": "ballerina",
+      "birthDate": "May 11, 1995",
+      "age": 20,
+      "appearance": [
+          32,
+          39
+      ],
+      "episodes": 8,
+      "series": "Boys & Girls in the City"
+  },
+  {
+      "appearanceNumber": 15,
+      "name": "Hayato Terashima",
+      "japaneseName": "寺島速人",
+      "nickname": "Hayato-kun",
+      "occupation": "chef apprentice",
+      "birthDate": "January 27, 1987",
+      "age": 29,
+      "appearance": [
+          32,
+          46
+      ],
+      "episodes": 15,
+      "series": "Boys & Girls in the City"
+  },
+  {
+      "appearanceNumber": 16,
+      "name": "Yuuki Byrnes",
+      "japaneseName": "バーンズ勇気",
+      "nickname": "Byrnes",
+      "occupation": "hip hop dancer",
+      "birthDate": "December 27, 1992",
+      "age": 23,
+      "appearance": [
+          36,
+          46
+      ],
+      "episodes": 11,
+      "series": "Boys & Girls in the City"
+  },
+  {
+      "appearanceNumber": 17,
+      "name": "Masako Endo",
+      "japaneseName": "遠藤政子",
+      "nickname": "Martha",
+      "occupation": "model",
+      "birthDate": "August 9, 1993",
+      "age": 23,
+      "appearance": [
+          39,
+          46
+      ],
+      "episodes": 8,
+      "series": "Boys & Girls in the City"
+  },
+  {
+      "appearanceNumber": 1,
+      "name": "Tetsuya Sugaya",
+      "japaneseName": "菅谷哲也",
+      "nickname": "Tecchan, Tetsu",
+      "occupation": "aspiring firefighter",
+      "birthDate": "July 28, 1993",
+      "age": null,
+      "appearance": [
+          1,
+          98
+      ],
+      "episodes": 98,
+      "series": "Boys x Girls Next Door"
+  },
+  {
+      "appearanceNumber": 2,
+      "name": "Seina Shimabukuro[2]",
+      "japaneseName": "島袋聖南",
+      "nickname": "Seinasan",
+      "occupation": "model",
+      "birthDate": "April 4, 1987",
+      "age": null,
+      "appearance": [
+          1,
+          29,
+          65,
+          98
+      ],
+      "episodes": 62,
+      "series": "Boys x Girls Next Door"
+  },
+  {
+      "appearanceNumber": 3,
+      "name": "Rie Kitahara",
+      "japaneseName": "北原里英",
+      "nickname": "Ricchan",
+      "occupation": "idol (AKB48)",
+      "birthDate": "June 24, 1991",
+      "age": null,
+      "appearance": [
+          1,
+          12
+      ],
+      "episodes": 12,
+      "series": "Boys x Girls Next Door"
+  },
+  {
+      "appearanceNumber": 4,
+      "name": "Masato Yukawa",
+      "japaneseName": "湯川正人",
+      "nickname": "Makun",
+      "occupation": "pro surfer",
+      "birthDate": "January 10, 1992",
+      "age": null,
+      "appearance": [
+          1,
+          12
+      ],
+      "episodes": 12,
+      "series": "Boys x Girls Next Door"
+  },
+  {
+      "appearanceNumber": 5,
+      "name": "Shota Nakatsugawa",
+      "japaneseName": "中津川翔太",
+      "nickname": "Shokun",
+      "occupation": "university student",
+      "birthDate": "November 18, 1987",
+      "age": null,
+      "appearance": [
+          1,
+          15
+      ],
+      "episodes": 15,
+      "series": "Boys x Girls Next Door"
+  },
+  {
+      "appearanceNumber": 6,
+      "name": "Momoko Takeuchi",
+      "japaneseName": "竹内桃子",
+      "nickname": "Momochan, Chanmomo",
+      "occupation": "aspiring author",
+      "birthDate": "June 14, 1991",
+      "age": null,
+      "appearance": [
+          1,
+          25
+      ],
+      "episodes": 25,
+      "series": "Boys x Girls Next Door"
+  },
+  {
+      "appearanceNumber": 7,
+      "name": "Hana Imai",
+      "japaneseName": "今井華",
+      "nickname": "Hanachan",
+      "occupation": "gyaru model",
+      "birthDate": "November 12, 1992",
+      "age": null,
+      "appearance": [
+          14,
+          38
+      ],
+      "episodes": 24,
+      "series": "Boys x Girls Next Door"
+  },
+  {
+      "appearanceNumber": 8,
+      "name": "Dyki Miyagi",
+      "japaneseName": "宮城大樹",
+      "nickname": "Dykikun",
+      "occupation": "kickboxer",
+      "birthDate": "January 23, 1990",
+      "age": null,
+      "appearance": [
+          16,
+          61
+      ],
+      "episodes": 45,
+      "series": "Boys x Girls Next Door"
+  },
+  {
+      "appearanceNumber": 9,
+      "name": "Tetsuya Iwanaga",
+      "japaneseName": "岩永徹也",
+      "nickname": "Oji",
+      "occupation": "pharmacist",
+      "birthDate": "October 16, 1986",
+      "age": null,
+      "appearance": [
+          19,
+          38
+      ],
+      "episodes": 19,
+      "series": "Boys x Girls Next Door"
+  },
+  {
+      "appearanceNumber": 10,
+      "name": "Aya Kondou",
+      "japaneseName": "近藤あや",
+      "nickname": "Ayachan",
+      "occupation": "university student",
+      "birthDate": "November 10, 1991",
+      "age": null,
+      "appearance": [
+          27,
+          38
+      ],
+      "episodes": 11,
+      "series": "Boys x Girls Next Door"
+  },
+  {
+      "appearanceNumber": 11,
+      "name": "Miwako Kakei",
+      "japaneseName": "筧美和子",
+      "nickname": "Miko, Michan, Miwachan",
+      "occupation": "gravure idol",
+      "birthDate": "March 6, 1994",
+      "age": null,
+      "appearance": [
+          29,
+          61
+      ],
+      "episodes": 32,
+      "series": "Boys x Girls Next Door"
+  },
+  {
+      "appearanceNumber": 12,
+      "name": "Midori Takechi",
+      "japaneseName": "武智ミドリ",
+      "nickname": "Me",
+      "occupation": "freeter",
+      "birthDate": "August 20, 1992",
+      "age": null,
+      "appearance": [
+          39,
+          50
+      ],
+      "episodes": 11,
+      "series": "Boys x Girls Next Door"
+  },
+  {
+      "appearanceNumber": 13,
+      "name": "Rina Sumioka",
+      "japaneseName": "住岡梨奈",
+      "nickname": "Rinati",
+      "occupation": "musician",
+      "birthDate": "February 15, 1990",
+      "age": null,
+      "appearance": [
+          39,
+          65
+      ],
+      "episodes": 26,
+      "series": "Boys x Girls Next Door"
+  },
+  {
+      "appearanceNumber": 14,
+      "name": "Yosuke Imai",
+      "japaneseName": "今井洋介",
+      "nickname": "Yosan",
+      "occupation": "photographer",
+      "birthDate": "October 29, 1984",
+      "age": null,
+      "appearance": [
+          39,
+          74
+      ],
+      "episodes": 35,
+      "series": "Boys x Girls Next Door"
+  },
+  {
+      "appearanceNumber": 15,
+      "name": "Mai Nagatani",
+      "japaneseName": "永谷真絵",
+      "nickname": "Maimai, Chay",
+      "occupation": "musician",
+      "birthDate": "October 23, 1990",
+      "age": null,
+      "appearance": [
+          51,
+          74
+      ],
+      "episodes": 23,
+      "series": "Boys x Girls Next Door"
+  },
+  {
+      "appearanceNumber": 16,
+      "name": "Chie Onuki",
+      "japaneseName": "小貫智恵",
+      "nickname": "Chichan",
+      "occupation": "university student",
+      "birthDate": "July 4, 1990",
+      "age": null,
+      "appearance": [
+          63,
+          74
+      ],
+      "episodes": 11,
+      "series": "Boys x Girls Next Door"
+  },
+  {
+      "appearanceNumber": 17,
+      "name": "Ippei Shima",
+      "japaneseName": "島一平",
+      "nickname": "Ippeichan",
+      "occupation": "comedian (Earth)",
+      "birthDate": "July 18, 1984",
+      "age": null,
+      "appearance": [
+          63,
+          87
+      ],
+      "episodes": 24,
+      "series": "Boys x Girls Next Door"
+  },
+  {
+      "appearanceNumber": 18,
+      "name": "Frances Cihi",
+      "japaneseName": "フランセス・スィーヒ",
+      "nickname": "Frankie",
+      "occupation": "painter",
+      "birthDate": "May 27, 1988",
+      "age": null,
+      "appearance": [
+          75,
+          87
+      ],
+      "episodes": 12,
+      "series": "Boys x Girls Next Door"
+  },
+  {
+      "appearanceNumber": 19,
+      "name": "Ryoko Hirasawa",
+      "japaneseName": "平澤遼子",
+      "nickname": "Ryochan",
+      "occupation": "company employee",
+      "birthDate": "September 25, 1989",
+      "age": null,
+      "appearance": [
+          75,
+          98
+      ],
+      "episodes": 23,
+      "series": "Boys x Girls Next Door"
+  },
+  {
+      "appearanceNumber": 20,
+      "name": "Kenya Yasuda",
+      "japaneseName": "保田賢也",
+      "nickname": "Kenken",
+      "occupation": "water polo player",
+      "birthDate": "March 29, 1989",
+      "age": null,
+      "appearance": [
+          75,
+          98
+      ],
+      "episodes": 23,
+      "series": "Boys x Girls Next Door"
+  },
+  {
+      "appearanceNumber": 21,
+      "name": "Michiko Yamanaka",
+      "japaneseName": "山中美智子",
+      "nickname": "Michan",
+      "occupation": "manager, designer",
+      "birthDate": "November 29, 1985",
+      "age": null,
+      "appearance": [
+          87,
+          98
+      ],
+      "episodes": 11,
+      "series": "Boys x Girls Next Door"
+  },
+  {
+      "appearanceNumber": 22,
+      "name": "Daiki Ito",
+      "japaneseName": "伊東大輝",
+      "nickname": "Daiki",
+      "occupation": "windsurfer",
+      "birthDate": "January 19, 1994",
+      "age": null,
+      "appearance": [
+          88,
+          98
+      ],
+      "episodes": 10,
+      "series": "Boys x Girls Next Door"
   }
 ]
