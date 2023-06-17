@@ -1,3 +1,5 @@
+<img src="./src/assets/terraceHouseLogoFull.png" alt="Terrace House API Logo" width="" height="" />
+
 # Intro
 Introducing **Terrace House API**, an open-source resource that gives developers access to member information and quotes from Terrace House to build fun applications. With Terrace House API, developers gain seamless access to a wealth of data from the beloved Japanese reality TV show, enabling them to create exciting and immersive experiences for Terrace House enthusiasts. 
 
