@@ -1,0 +1,44 @@
+html {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Reset some default styles for consistency */
+body, h1, p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Apply some basic styles to the header */
+header {
+  text-align: center;
+  padding: 20px;
+}
+
+/* Apply some basic styles to the logo */
+#th-api-logo {
+  max-width: 50%;
+  height: auto;
+}
+
+/* Apply some styles to the documentation section */
+#documentation {
+  padding: 60px;
+  background-color: #efecec;
+}
+
+/* Apply some styles to the documentation section heading */
+h1 {
+  margin-bottom: 10px;
+}
+
+/* Apply some styles to the documentation section content */
+p {
+  line-height: 1.5;
+}
+
+#th-studio-img {
+  width: 100%;
+  height: 200px;
+  object-fit: none;
+  opacity: 80%;
+}

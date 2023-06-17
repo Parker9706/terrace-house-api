@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Terrace House API</title>
+  <link rel="icon" href="./assets/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <img id="th-api-logo" src="./assets/terracehouse_logo.png" alt="TH_API_Logo">
+  </header>
+  <main>
+    <section id="documentation">
+      <h1>Documentation</h1>
+      <h1 id="intro">Intro</h1>
+      <p>Introducing <strong>Terrace House API</strong>, an open-source resource that gives developers access to member
+        information and quotes from Terrace House to build fun applications. With Terrace House API, developers gain
+        seamless access to a wealth of data from the beloved Japanese reality TV show, enabling them to create exciting
+        and immersive experiences for Terrace House enthusiasts. </p>
+      <h1 id="routes">Routes</h1>
+      <p><code>/v1/members</code> | Retrieve All Members</p>
+      <p><code>/v1/members/:name</code> | Will search by first name, last name, or nickname (EN)</p>
+      <p><code>/v1/quotes</code> | Random Quote</p>
+      <p><code>/v1/quotes/:name</code> | Fetch a quote from a specific member</p>
+      <h1 id="authentication">Authentication</h1>
+      <p>No authentication is currently in place, however there is a rate limit of 1,000 requests per 15 minutes. If you
+        exceed this, you will receive a status code 429, and will need to wait before making additional requests. </p>
+      <p>Any excessive use of this API will be limited to prevent impact to other users.</p>
+      <h1 id="run-locally">Run Locally</h1>
+      <p>Clone this repository to your local machine</p>
+      <h2 id="prerequisites-">Prerequisites:</h2>
+      <p>Node.js version 12.0 or later</p>
+      <h2 id="setup">Setup</h2>
+      <p><code>npm run start</code></p>
+      <p>Port 3000 will be the default, or you can reference a port in your local ENV.</p>
+      <h2 id="development">Development</h2>
+      <p>Terrace House API has been developed by Parker Hutcheson. All data is provided by public online resources and
+        therefore might not be 100% accurate. You may submit feedback for corrections or new features using the form <a
+          href="www.airtable.com">here</a>.</p>
+      <h2 id="license">License</h2>
+      <p>Copyright (c) © 2023 Parker Hutcheson. Terrace House is a registered trademark of Fuji Television Network, Inc.
+        East Entertainment Co., Ltd. フジテレビ イースト・エンタテインメント.フジテレビ イースト・エンタテインメント.</p>
+    </section>
+  </main>
+
+  <footer>
+    <!-- <img id="th-studio-img"src="./assets/terrace_dinner.png" alt="TH_Studio_Image"> -->
+  </footer>
+</body>
+
+</html>
