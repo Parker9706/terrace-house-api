@@ -8,30 +8,25 @@ body, h1, p {
   padding: 0;
 }
 
-/* Apply some basic styles to the header */
 header {
   text-align: center;
   padding: 20px;
 }
 
-/* Apply some basic styles to the logo */
 #th-api-logo {
   max-width: 50%;
   height: auto;
 }
 
-/* Apply some styles to the documentation section */
 #documentation {
   padding: 60px;
   background-color: #efecec;
 }
 
-/* Apply some styles to the documentation section heading */
 h1 {
   margin-bottom: 10px;
 }
 
-/* Apply some styles to the documentation section content */
 p {
   line-height: 1.5;
 }
