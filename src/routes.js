@@ -1,5 +1,5 @@
 import express from 'express';
-import { findAllMembers, findAMember } from "./controllers/members.js";
+import { findAllMembers, searchForAMember } from "./controllers/members.js";
 import { getARandomQuote, getQuoteByMember, getASpecificQuote } from './controllers/quotes.js';
 
 const router = express.Router();
@@ -13,13 +13,9 @@ router.get('/members', async (req, res) => {
 
 router.get('/member/:name', async (req, res) => {
   const { name } = req.params;
-  const result = await findAMember(name);
+  const result = await searchForAMember(name);
   return res.status(200).json(result);
 });
-
-// Commentators
-
-// Guests
 
 // Quotes
 router.get('/quotes', async (req, res) => {
@@ -37,16 +33,6 @@ router.get('/quotes/:name', async (req, res) => {
 router.get('/quotes/:id', async (req, res) => {
   const { id } = req.params;
   const result = await getASpecificQuote(parseInt(id));
-  return res.status(200).json(result);
-});
-
-// Series
-
-
-// Episodes
-router.get('/episodes/:series', async (req, res) => {
-  const { language } = req;
-  // const result = await getARandomQuote(language);
   return res.status(200).json(result);
 });
 

@@ -6,11 +6,11 @@ export const findAllMembers = async () => {
   return data;
 };
 
-export const findAMember = async (name) => {
+export const searchForAMember = async (name) => {
+  if (name.length > 12) throw error();
   const data = await parseData('members');
-  const formattedName = await parseName(name);
+  
   let result = 'Member not found';
-  console.log(formattedName);
   data.forEach((member) => {
     if (member['name'] === formattedName) result = member;
   });

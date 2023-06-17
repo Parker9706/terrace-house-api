@@ -1,10 +1,18 @@
 import dotenv from "dotenv";
 import express from "express";
+import path from 'path';
 import rateLimit from 'express-rate-limit';
 import router from "./routes.js";
+import { fileURLToPath } from 'url';
+import { dirname, join } from 'path';
 import { findAllMembers } from "./controllers/members.js";
 
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
+
 const app = express();
+app.use(express.static(path.join(__dirname, 'frontend')));
+
 
 const limiter = rateLimit({
   windowMs: 15 * 60 * 1000, // 15 minutes
@@ -26,11 +34,17 @@ app.use((req, res, next) => {
 
 app.use('/api/v1', router);
 
+app.get('/', (req, res) => {
+  res.sendFile(path.join(__dirname, 'public', 'README.md'));
+});
+
 app.get('/members', async (req, res) => {
   const { language } = req.params;
   const result = await findAllMembers();
   return res.status(200).json(result);
 });
+
+
 
 app.use((req, res) => {
   return res.status(404).send('Endpoint not found...');

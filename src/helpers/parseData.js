@@ -15,10 +15,8 @@ const parseData = (requestedCollection, language) => {
     quotes: "jp/quotes/quotes.json"
   };
   let path;
-  console.log('lang', language);
   if (language === 'jp') path = basePath + japaneseMap[requestedCollection];
   else path = basePath + englishMap[requestedCollection];
-  console.log(path);
   try {
     const jsonData = fs.readFileSync(path, 'utf8');
     return JSON.parse(jsonData);
