@@ -6,19 +6,19 @@
 # Endpoints
 
 ## Members
-[Get All Members](###get-all-members)
-- [Get all members by series](###Get-all-members-by-series)
-- [Get a member](###Get-a-member)
-- [Search by name or nickname](###Search-by-name-or-nickname)
+- [Get All Members](#get-all-members)
+- [Get all members by series](#Get-all-members-by-series)
+- [Get a member](#Get-a-member)
+- [Search by name or nickname](#Search-by-name-or-nickname)
 
 ## Quotes
 
-- [Get a quote](###Get-a-random-quote)
-- [Get all quotes from a member](###Get-all-quotes-from-a-member)
+- [Get a quote](#Get-a-random-quote)
+- [Get all quotes from a member](#Get-all-quotes-from-a-member)
 
 
 ---
-### Get All Members
+# Get All Members
  Retrieve all memebers from all Terrace House series.
  
 Request:
@@ -47,7 +47,7 @@ Response:
 ]
 ```
 ---
-### Get all members by series
+# Get all members by series
 Add the corresponding key as a URL parameter to return all members from a particular series.
 | Parameter    |      Series      |
 |   --------   |      -------     |
@@ -85,7 +85,7 @@ Response:
 ]
 ```
 ---
-### Get a member
+# Get a member
 Separate the first and last name with a "+" symbol
 
 Request:
@@ -115,7 +115,7 @@ Response:
 ]
 ```
 
-### Search by name or nickname
+# Search by name or nickname
 Use a general search to look for members, including nicknames! This endpoint can bring back multiple members with similar names, or help you find a specific member by their nick name. 
 
 Request:
@@ -145,7 +145,7 @@ Response:
 ]
 ```
 
-### Get a random quote
+# Get a random quote
 This endpoint will fetch a random quote from the show
 
 Request:
@@ -161,7 +161,7 @@ Response:
 }
 ```
 
-### Get all quotes from a member
+# Get all quotes from a member
 This endpoint will fetch all quotes from a member, depending on if there is any available. Like in the members endpoint, provide the first name and last name separated by a "+" symbol.
 
 Request:
