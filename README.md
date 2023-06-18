@@ -6,7 +6,7 @@
 # Endpoints
 
 ## Members
-- [Get all members](###Get-all-members)
+- [Get all members](###get-all-members)
 - [Get all members by series](###Get-all-members-by-series)
 - [Get a member](###Get-a-member)
 - [Search by name or nickname](###Search-by-name-or-nickname)
