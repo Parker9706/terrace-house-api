@@ -15,11 +15,11 @@
 - [Get a random quote](#Get-a-random-quote)
 - [Get all quotes from a member](#Get-all-quotes-from-a-member)
 
-
 ---
+
 # Get All Members
- Retrieve all members from all Terrace House series.
- 
+Retrieve all members from all Terrace House series.
+
 Request:
 ```shell
 GET "https://www.terracehouseapi.com/api/v1/members"
@@ -201,10 +201,9 @@ Any excessive use of this API will be limited to prevent impact to other users.
 
 # Local Development
 
-Clone this [repository](www.github.com/parkerhutcheson/terrace-house-api) to your local machine.
-
 ## Prerequisites:
 Node.js version 12.0 or later
+Clone this [repository](www.github.com/parkerhutcheson/terrace-house-api) to your local machine.
 
 ## Setup
 
