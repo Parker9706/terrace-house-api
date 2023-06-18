@@ -9,7 +9,7 @@ export const getARandomQuote = async (language) => {
   return data[randomNumber];
 };
 
-export const getQuoteByMember = async (name) => {
+export const getQuotesByMember = async (name) => {
   const formattedName = parseName(name);
   const data = await parseData('quotes');
   let result = [];
@@ -17,14 +17,5 @@ export const getQuoteByMember = async (name) => {
     if (quote['name'] === formattedName) result.push(quote);
   });
   if (result.length === 0) result.push('no quotes found');
-  return result;
-};
-
-export const getASpecificQuote = async (id) => {
-  const data = await parseData('quotes');
-  let result = 'quote not found';
-  data.map((quote) => {
-    if (quote['id'] === id) result = quote;
-  });
   return result;
 };
