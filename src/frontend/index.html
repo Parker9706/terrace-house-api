@@ -1,46 +1,243 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Terrace House API</title>
   <link rel="icon" href="./assets/favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
   <header>
     <img id="th-api-logo" src="./assets/terracehouse_logo.png" alt="TH_API_Logo">
   </header>
   <main>
     <section id="documentation">
-      <h1>Documentation</h1>
-      <h1 id="intro">Intro</h1>
-      <p>Introducing <strong>Terrace House API</strong>, an open-source resource that gives developers access to member
-        information and quotes from Terrace House to build fun applications. With Terrace House API, developers gain
-        seamless access to a wealth of data from the beloved Japanese reality TV show, enabling them to create exciting
-        and immersive experiences for Terrace House enthusiasts. </p>
-      <h1 id="routes">Routes</h1>
-      <p><code>/v1/members</code> | Retrieve All Members</p>
-      <p><code>/v1/members/:name</code> | Will search by first name, last name, or nickname (EN)</p>
-      <p><code>/v1/quotes</code> | Random Quote</p>
-      <p><code>/v1/quotes/:name</code> | Fetch a quote from a specific member</p>
-      <h1 id="authentication">Authentication</h1>
-      <p>No authentication is currently in place, however there is a rate limit of 1,000 requests per 15 minutes. If you
-        exceed this, you will receive a status code 429, and will need to wait before making additional requests. </p>
-      <p>Any excessive use of this API will be limited to prevent impact to other users.</p>
-      <h1 id="run-locally">Run Locally</h1>
-      <p>Clone this repository to your local machine</p>
-      <h2 id="prerequisites-">Prerequisites:</h2>
-      <p>Node.js version 12.0 or later</p>
-      <h2 id="setup">Setup</h2>
-      <p><code>npm run start</code></p>
-      <p>Port 3000 will be the default, or you can reference a port in your local ENV.</p>
-      <h2 id="development">Development</h2>
-      <p>Terrace House API has been developed by Parker Hutcheson. All data is provided by public online resources and
-        therefore might not be 100% accurate. You may submit feedback for corrections or new features using the form <a
-          href="www.airtable.com">here</a>.</p>
-      <h2 id="license">License</h2>
-      <p>Copyright (c) © 2023 Parker Hutcheson. Terrace House is a registered trademark of Fuji Television Network, Inc.
-        East Entertainment Co., Ltd. フジテレビ イースト・エンタテインメント.フジテレビ イースト・エンタテインメント.</p>
+      
+<h1>Introduction</h1>
+<p>Terrace House API is an open-source resource that gives developers access to member data and quotes from Terrace House to build fun applications and projects. </p>
+<br>
+<h1>Endpoints</h1>
+<h3>Retrieve all members from all Terrace House series</h3>
+<p>Request:</p>
+<pre><code class="language-shell">GET &quot;https://www.terracehouseapi.com/api/v1/members&quot;
+</code></pre>
+<p>Response:</p>
+<pre><code class="language-json">[
+    {
+        &quot;appearanceNumber&quot;: 1,
+        &quot;name&quot;: &quot;Kaori Watanabe&quot;,
+        &quot;japaneseName&quot;: &quot;渡邉香織&quot;,
+        &quot;nickname&quot;: [],
+        &quot;occupation&quot;: &quot;Illustrator&quot;,
+        &quot;birthDate&quot;: &quot;June 25, 1990&quot;,
+        &quot;age&quot;: 28,
+        &quot;appearance&quot;: [
+            1,
+            20
+        ],
+        &quot;episodes&quot;: 20,
+        &quot;series&quot;: &quot;Tokyo 2019-2020&quot;
+    },
+    ...all members
+]
+</code></pre>
+<hr />
+<h3>Retrieve all members by series</h3>
+<p>Add the corresponding key as a URL parameter</p>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Series</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>bxg</td>
+<td>Boys X Girls Next Door</td>
+</tr>
+<tr>
+<td>b&amp;g</td>
+<td>Boys &amp; Girls in the City</td>
+</tr>
+<tr>
+<td>aloha</td>
+<td>Aloha State</td>
+</tr>
+<tr>
+<td>ong</td>
+<td>Opening New Doors</td>
+</tr>
+<tr>
+<td>tokyo</td>
+<td>Tokyo 2019-2020</td>
+</tr>
+</tbody>
+</table>
+<p>Request:</p>
+<pre><code class="language-shell">GET &quot;https://www.terracehouseapi.com/api/v1/members/ond&quot;
+</code></pre>
+<p>Response:</p>
+<pre><code class="language-json">[
+    {
+        &quot;appearanceNumber&quot;: 1,
+        &quot;name&quot;: &quot;Ami Komuro&quot;,
+        &quot;japaneseName&quot;: &quot;小室安未&quot;,
+        &quot;nickname&quot;: [
+            &quot;Ami&quot;
+        ],
+        &quot;occupation&quot;: &quot;university student / aspiring model&quot;,
+        &quot;birthDate&quot;: &quot;January 19, 1997&quot;,
+        &quot;age&quot;: 21,
+        &quot;appearance&quot;: [
+            1,
+            17
+        ],
+        &quot;episodes&quot;: 17,
+        &quot;series&quot;: &quot;Opening New Doors&quot;
+    },
+    ...all Opening New Doors members
+]
+</code></pre>
+<hr />
+<h3>Retrieve a specific member by first and last name</h3>
+<p>Separate the first and last name with a &quot;+&quot; symbol</p>
+<p>Request:</p>
+<pre><code class="language-shell">GET &quot;https://www.terracehouseapi.com/api/v1/members/chikako+fukuyama&quot;
+</code></pre>
+<p>Response:</p>
+<pre><code class="language-json">[
+    {
+        &quot;appearanceNumber&quot;: 14,
+        &quot;name&quot;: &quot;Chikako Fukuyama&quot;,
+        &quot;japaneseName&quot;: &quot;福山智可子&quot;,
+        &quot;nickname&quot;: [
+            &quot;Chika&quot;
+        ],
+        &quot;occupation&quot;: &quot;spa receptionist&quot;,
+        &quot;birthDate&quot;: &quot;November 8, 1988&quot;,
+        &quot;age&quot;: 28,
+        &quot;appearance&quot;: [
+            26,
+            36
+        ],
+        &quot;episodes&quot;: 11,
+        &quot;series&quot;: &quot;Aloha State&quot;
+    }
+]
+</code></pre>
+<h3>Retrieve a specific member by first and last name</h3>
+<p>Separate the first and last name with a &quot;+&quot; symbol</p>
+<p>Request:</p>
+<pre><code class="language-shell">GET &quot;https://www.terracehouseapi.com/api/v1/members/chikako+fukuyama&quot;
+</code></pre>
+<p>Response:</p>
+<pre><code class="language-json">[
+    {
+        &quot;appearanceNumber&quot;: 14,
+        &quot;name&quot;: &quot;Chikako Fukuyama&quot;,
+        &quot;japaneseName&quot;: &quot;福山智可子&quot;,
+        &quot;nickname&quot;: [
+            &quot;Chika&quot;
+        ],
+        &quot;occupation&quot;: &quot;spa receptionist&quot;,
+        &quot;birthDate&quot;: &quot;November 8, 1988&quot;,
+        &quot;age&quot;: 28,
+        &quot;appearance&quot;: [
+            26,
+            36
+        ],
+        &quot;episodes&quot;: 11,
+        &quot;series&quot;: &quot;Aloha State&quot;
+    }
+]
+</code></pre>
+<h3>Search for members by name or nickname</h3>
+<p>Use a general search to look for members, including nicknames! This endpoint can bring back multiple members with similar names, or help you find a specific member by their nick name.</p>
+<p>Request:</p>
+<pre><code class="language-shell">GET &quot;https://www.terracehouseapi.com/api/v1/members/tap&quot;
+</code></pre>
+<p>Response:</p>
+<pre><code class="language-json">[
+  {
+        &quot;appearanceNumber&quot;: 3,
+        &quot;name&quot;: &quot;Yuki Adachi&quot;,
+        &quot;japaneseName&quot;: &quot;安達雄基&quot;,
+        &quot;nickname&quot;: [
+            &quot;Tap&quot;
+        ],
+        &quot;occupation&quot;: &quot;tap dancer&quot;,
+        &quot;birthDate&quot;: &quot;August 19, 1987&quot;,
+        &quot;age&quot;: 27,
+        &quot;appearance&quot;: [
+            1,
+            17
+        ],
+        &quot;episodes&quot;: 17,
+        &quot;series&quot;: &quot;Boys &amp; Girls in the City&quot;
+    }
+]
+</code></pre>
+<h3>Retrieve a random quote from Terrace House</h3>
+<p>This endpoint will fetch a random quote from the show</p>
+<p>Request:</p>
+<pre><code class="language-shell">GET &quot;https://www.terracehouseapi.com/api/v1/quotes&quot;
+</code></pre>
+<p>Response:</p>
+<pre><code class="language-json">{
+    &quot;name&quot;: &quot;Minori Nakada&quot;,
+    &quot;japaneseName&quot;: &quot;中田みのり&quot;,
+    &quot;quote&quot;: &quot;I love having free time. I can live forever doing nothing.&quot;
+}
+</code></pre>
+<h3>Retrieve all quotes from a member</h3>
+<p>This endpoint will fetch all quotes from a member, depending on if there is any available. Like in the members endpoint, provide the first name and last name separated by a &quot;+&quot; symbol.</p>
+<p>Request:</p>
+<pre><code class="language-shell">GET &quot;https://www.terracehouseapi.com/api/v1/quotes/minori+nakada&quot;
+</code></pre>
+<p>Response:</p>
+<pre><code class="language-json">[
+    {
+        &quot;name&quot;: &quot;Minori Nakada&quot;,
+        &quot;japaneseName&quot;: &quot;中田みのり&quot;,
+        &quot;quote&quot;: &quot;I love having free time. I can live forever doing nothing.&quot;
+    }
+]
+</code></pre>
+<h2>Coming Soon</h2>
+<ul>
+<li>Studio Commentator Data</li>
+<li>Guests Data</li>
+<li>Images for Characters</li>
+<li>Series &amp; Episode Data</li>
+<li>Japanese Data</li>
+</ul>
+<h1>Contribute</h1>
+<p>Pull requests are welcome. For major changes, please open an issue first
+to discuss what you would like to change.</p>
+<p><a href="www.github.com/parkerhutcheson/terrace-house-api">Terrace House API Repository</a></p>
+<br>
+<h1>Authentication</h1>
+<p>No authentication is currently in place, however there is a rate limit of 10,000 requests per 15 minutes. If you exceed this, you will receive a status code 429, and will need to wait before making additional requests.</p>
+<p>Any excessive use of this API will be limited to prevent impact to other users.</p>
+<br>
+<h1>Local Development</h1>
+<p>Clone this <a href="www.github.com/parkerhutcheson/terrace-house-api">repository</a> to your local machine.</p>
+<h2>Prerequisites:</h2>
+<p>Node.js version 12.0 or later</p>
+<h2>Setup</h2>
+<p>Run the following command in your terminal:</p>
+<pre><code class="language-bash">npm run start
+</code></pre>
+<p>The server will begin running on localhost:3000.</p>
+<br>
+
+<h1>License</h1>
+<p>Terrace House API has been developed by Parker Hutcheson. All data is provided by public online resources and therefore might not be 100% accurate. Please see how to contribute above to improve or correct data.</p>
+<p>Copyright (c) © 2023 Parker Hutcheson. Terrace House is a registered trademark of Fuji Television Network, Inc. East Entertainment Co., Ltd. フジテレビ イースト・エンタテインメント.フジテレビ イースト・エンタテインメント.</p>
+
     </section>
   </main>
 
