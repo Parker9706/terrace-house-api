@@ -4,7 +4,7 @@ import path from 'path';
 import rateLimit from 'express-rate-limit';
 import router from "./routes.js";
 import { fileURLToPath } from 'url';
-import { dirname, join } from 'path';
+import { dirname } from 'path';
 import { findAllMembers } from "./controllers/members.js";
 
 const __filename = fileURLToPath(import.meta.url);
@@ -13,10 +13,9 @@ const __dirname = dirname(__filename);
 const app = express();
 app.use(express.static(path.join(__dirname, 'frontend')));
 
-
 const limiter = rateLimit({
   windowMs: 15 * 60 * 1000, // 15 minutes
-  max: 100000,
+  max: 10000, 
   message: 'You have made too many requests',
 });
 
