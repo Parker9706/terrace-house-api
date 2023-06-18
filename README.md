@@ -12,14 +12,13 @@
 - [Search by name or nickname](#Search-by-name-or-nickname)
 
 ## Quotes
-
-- [Get a quote](#Get-a-random-quote)
+- [Get a random quote](#Get-a-random-quote)
 - [Get all quotes from a member](#Get-all-quotes-from-a-member)
 
 
 ---
 # Get All Members
- Retrieve all memebers from all Terrace House series.
+ Retrieve all members from all Terrace House series.
  
 Request:
 ```shell
@@ -162,7 +161,7 @@ Response:
 ```
 
 # Get all quotes from a member
-This endpoint will fetch all quotes from a member, depending on if there is any available. Like in the members endpoint, provide the first name and last name separated by a "+" symbol.
+This endpoint will fetch all quotes from a member, depending on if there are any available. Like in the members endpoint, provide the first name and last name separated by a "+" symbol.
 
 Request:
 ```shell
@@ -196,7 +195,7 @@ to discuss what you would like to change.
 [Terrace House API Repository](www.github.com/parkerhutcheson/terrace-house-api)
 
 # Authentication
-No authentication is currently in place, however there is a rate limit of 10,000 requests per 15 minutes. If you exceed this, you will receive a status code 429, and will need to wait before making additional requests. 
+No authentication is currently in place, however, there is a rate limit of 10,000 requests per 15 minutes. If you exceed this, you will receive a status code 429, and will need to wait before making additional requests. 
 
 Any excessive use of this API will be limited to prevent impact to other users.
 
