@@ -1,5 +1,6 @@
 html {
   font-family: 'Roboto', sans-serif;
+  /* color: rgb(250, 250, 250); */
 }
 
 body, h1, p {
@@ -18,8 +19,10 @@ header {
 }
 
 #documentation {
-  padding: 60px;
-  background-color: #efecec;
+  padding: 15%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  background-color: #dad8d8;
 }
 
 h1 {
