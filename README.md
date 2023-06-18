@@ -18,7 +18,7 @@
 
 
 ---
- ### Get all members
+ ### Get All Members
  Retrieve all memebers from all Terrace House series.
  
 Request:
