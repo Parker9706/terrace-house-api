@@ -12,6 +12,7 @@
     },
     "rules": {
         "indent": ["error", 2],
-        "semi": ["error", "always"]
+        "semi": ["error", "always"],
+        "array-bracket-newline": ["error", { "multiline": false }]
     }
 }
