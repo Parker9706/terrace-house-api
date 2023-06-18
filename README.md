@@ -4,7 +4,23 @@
 **Terrace House API** is an open-source resource that gives developers access to member data and quotes from Terrace House to build fun applications and projects. 
 
 # Endpoints
- ### Retrieve all members from all Terrace House series
+
+## Members
+- [Get all members](###Get-all-members)
+- [Get all members by series](###Get-all-members-by-series)
+- [Get a member](###Get-a-member)
+- [Search by name or nickname](###Search-by-name-or-nickname)
+
+## Quotes
+
+- [Get a quote](###Get-a-random-quote)
+- [Get all quotes from a member](###Get-all-quotes-from-a-member)
+
+
+---
+ ### Get all member
+ Retrieve all memebers from all Terrace House series.
+ 
 Request:
 ```shell
 GET "https://www.terracehouseapi.com/api/v1/members"
@@ -31,8 +47,8 @@ Response:
 ]
 ```
 ---
-### Retrieve all members by series
-Add the corresponding key as a URL parameter
+### Get all members by series
+Add the corresponding key as a URL parameter to return all members from a particular series.
 | Parameter    |      Series      |
 |   --------   |      -------     |
 | bxg  | Boys X Girls Next Door   |
@@ -69,7 +85,7 @@ Response:
 ]
 ```
 ---
-### Retrieve a specific member by first and last name
+### Get a member
 Separate the first and last name with a "+" symbol
 
 Request:
@@ -99,37 +115,7 @@ Response:
 ]
 ```
 
-### Retrieve a specific member by first and last name
-Separate the first and last name with a "+" symbol
-
-Request:
-```shell
-GET "https://www.terracehouseapi.com/api/v1/members/chikako+fukuyama"
-```
-Response:
-```json
-[
-    {
-        "appearanceNumber": 14,
-        "name": "Chikako Fukuyama",
-        "japaneseName": "福山智可子",
-        "nickname": [
-            "Chika"
-        ],
-        "occupation": "spa receptionist",
-        "birthDate": "November 8, 1988",
-        "age": 28,
-        "appearance": [
-            26,
-            36
-        ],
-        "episodes": 11,
-        "series": "Aloha State"
-    }
-]
-```
-
-### Search for members by name or nickname
+### Search by name or nickname
 Use a general search to look for members, including nicknames! This endpoint can bring back multiple members with similar names, or help you find a specific member by their nick name. 
 
 Request:
@@ -159,7 +145,7 @@ Response:
 ]
 ```
 
-### Retrieve a random quote from Terrace House
+### Get a random quote
 This endpoint will fetch a random quote from the show
 
 Request:
@@ -175,7 +161,7 @@ Response:
 }
 ```
 
-### Retrieve all quotes from a member
+### Get all quotes from a member
 This endpoint will fetch all quotes from a member, depending on if there is any available. Like in the members endpoint, provide the first name and last name separated by a "+" symbol.
 
 Request:
