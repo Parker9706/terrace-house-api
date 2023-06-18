@@ -2,252 +2,222 @@
 <html>
 
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Terrace House API</title>
-  <link rel="icon" href="./assets/favicon.ico" type="image/x-icon">
-  <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terrace House API</title>
+    <link rel="icon" href="./assets/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-  <header>
-    <img id="th-api-logo" src="./assets/terracehouse_logo.png" alt="TH_API_Logo">
-    <!-- Place this tag where you want the button to render. -->
-    <!-- Place this tag in your head or just before your close body tag. -->
-<script async defer src="https://buttons.github.io/buttons.js"></script>
-<a class="github-button" href="https://github.com/parkerhutcheson/terrace-house-api" data-icon="octicon-star" aria-label="Star buttons/github-buttons on GitHub">Star</a>
-  </header>
-  <main>
-    <section id="documentation">
-      
-<h1>Introduction</h1>
-<p>Terrace House API is an open-source resource that gives developers access to member data and quotes from Terrace House to build fun applications and projects. </p>
-<br>
-<h1>Endpoints</h1>
-<h3>Retrieve all members from all Terrace House series</h3>
-<p>Request:</p>
-<pre><code class="language-shell">GET &quot;https://www.terracehouseapi.com/api/v1/members&quot;
-</code></pre>
-<p>Response:</p>
-<pre><code class="language-json">[
-    {
-        &quot;appearanceNumber&quot;: 1,
-        &quot;name&quot;: &quot;Kaori Watanabe&quot;,
-        &quot;japaneseName&quot;: &quot;渡邉香織&quot;,
-        &quot;nickname&quot;: [],
-        &quot;occupation&quot;: &quot;Illustrator&quot;,
-        &quot;birthDate&quot;: &quot;June 25, 1990&quot;,
-        &quot;age&quot;: 28,
-        &quot;appearance&quot;: [
-            1,
-            20
-        ],
-        &quot;episodes&quot;: 20,
-        &quot;series&quot;: &quot;Tokyo 2019-2020&quot;
-    },
-    ...all members
-]
-</code></pre>
-<hr />
-<h3>Retrieve all members by series</h3>
-<p>Add the corresponding key as a URL parameter</p>
-<table>
-<thead>
-<tr>
-<th>Parameter</th>
-<th>Series</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>bxg</td>
-<td>Boys X Girls Next Door</td>
-</tr>
-<tr>
-<td>b&amp;g</td>
-<td>Boys &amp; Girls in the City</td>
-</tr>
-<tr>
-<td>aloha</td>
-<td>Aloha State</td>
-</tr>
-<tr>
-<td>ong</td>
-<td>Opening New Doors</td>
-</tr>
-<tr>
-<td>tokyo</td>
-<td>Tokyo 2019-2020</td>
-</tr>
-</tbody>
-</table>
-<p>Request:</p>
-<pre><code class="language-shell">GET &quot;https://www.terracehouseapi.com/api/v1/members/ond&quot;
-</code></pre>
-<p>Response:</p>
-<pre><code class="language-json">[
-    {
-        &quot;appearanceNumber&quot;: 1,
-        &quot;name&quot;: &quot;Ami Komuro&quot;,
-        &quot;japaneseName&quot;: &quot;小室安未&quot;,
-        &quot;nickname&quot;: [
-            &quot;Ami&quot;
-        ],
-        &quot;occupation&quot;: &quot;university student / aspiring model&quot;,
-        &quot;birthDate&quot;: &quot;January 19, 1997&quot;,
-        &quot;age&quot;: 21,
-        &quot;appearance&quot;: [
-            1,
-            17
-        ],
-        &quot;episodes&quot;: 17,
-        &quot;series&quot;: &quot;Opening New Doors&quot;
-    },
-    ...all Opening New Doors members
-]
-</code></pre>
-<hr />
-<h3>Retrieve a specific member by first and last name</h3>
-<p>Separate the first and last name with a &quot;+&quot; symbol</p>
-<p>Request:</p>
-<pre><code class="language-shell">GET &quot;https://www.terracehouseapi.com/api/v1/members/chikako+fukuyama&quot;
-</code></pre>
-<p>Response:</p>
-<pre><code class="language-json">[
-    {
-        &quot;appearanceNumber&quot;: 14,
-        &quot;name&quot;: &quot;Chikako Fukuyama&quot;,
-        &quot;japaneseName&quot;: &quot;福山智可子&quot;,
-        &quot;nickname&quot;: [
-            &quot;Chika&quot;
-        ],
-        &quot;occupation&quot;: &quot;spa receptionist&quot;,
-        &quot;birthDate&quot;: &quot;November 8, 1988&quot;,
-        &quot;age&quot;: 28,
-        &quot;appearance&quot;: [
-            26,
-            36
-        ],
-        &quot;episodes&quot;: 11,
-        &quot;series&quot;: &quot;Aloha State&quot;
-    }
-]
-</code></pre>
-<h3>Retrieve a specific member by first and last name</h3>
-<p>Separate the first and last name with a &quot;+&quot; symbol</p>
-<p>Request:</p>
-<pre><code class="language-shell">GET &quot;https://www.terracehouseapi.com/api/v1/members/chikako+fukuyama&quot;
-</code></pre>
-<p>Response:</p>
-<pre><code class="language-json">[
-    {
-        &quot;appearanceNumber&quot;: 14,
-        &quot;name&quot;: &quot;Chikako Fukuyama&quot;,
-        &quot;japaneseName&quot;: &quot;福山智可子&quot;,
-        &quot;nickname&quot;: [
-            &quot;Chika&quot;
-        ],
-        &quot;occupation&quot;: &quot;spa receptionist&quot;,
-        &quot;birthDate&quot;: &quot;November 8, 1988&quot;,
-        &quot;age&quot;: 28,
-        &quot;appearance&quot;: [
-            26,
-            36
-        ],
-        &quot;episodes&quot;: 11,
-        &quot;series&quot;: &quot;Aloha State&quot;
-    }
-]
-</code></pre>
-<h3>Search for members by name or nickname</h3>
-<p>Use a general search to look for members, including nicknames! This endpoint can bring back multiple members with similar names, or help you find a specific member by their nick name.</p>
-<p>Request:</p>
-<pre><code class="language-shell">GET &quot;https://www.terracehouseapi.com/api/v1/members/tap&quot;
-</code></pre>
-<p>Response:</p>
-<pre><code class="language-json">[
-  {
-        &quot;appearanceNumber&quot;: 3,
-        &quot;name&quot;: &quot;Yuki Adachi&quot;,
-        &quot;japaneseName&quot;: &quot;安達雄基&quot;,
-        &quot;nickname&quot;: [
-            &quot;Tap&quot;
-        ],
-        &quot;occupation&quot;: &quot;tap dancer&quot;,
-        &quot;birthDate&quot;: &quot;August 19, 1987&quot;,
-        &quot;age&quot;: 27,
-        &quot;appearance&quot;: [
-            1,
-            17
-        ],
-        &quot;episodes&quot;: 17,
-        &quot;series&quot;: &quot;Boys &amp; Girls in the City&quot;
-    }
-]
-</code></pre>
-<h3>Retrieve a random quote from Terrace House</h3>
-<p>This endpoint will fetch a random quote from the show</p>
-<p>Request:</p>
-<pre><code class="language-shell">GET &quot;https://www.terracehouseapi.com/api/v1/quotes&quot;
-</code></pre>
-<p>Response:</p>
-<pre><code class="language-json">{
-    &quot;name&quot;: &quot;Minori Nakada&quot;,
-    &quot;japaneseName&quot;: &quot;中田みのり&quot;,
-    &quot;quote&quot;: &quot;I love having free time. I can live forever doing nothing.&quot;
-}
-</code></pre>
-<h3>Retrieve all quotes from a member</h3>
-<p>This endpoint will fetch all quotes from a member, depending on if there is any available. Like in the members endpoint, provide the first name and last name separated by a &quot;+&quot; symbol.</p>
-<p>Request:</p>
-<pre><code class="language-shell">GET &quot;https://www.terracehouseapi.com/api/v1/quotes/minori+nakada&quot;
-</code></pre>
-<p>Response:</p>
-<pre><code class="language-json">[
-    {
-        &quot;name&quot;: &quot;Minori Nakada&quot;,
-        &quot;japaneseName&quot;: &quot;中田みのり&quot;,
-        &quot;quote&quot;: &quot;I love having free time. I can live forever doing nothing.&quot;
-    }
-]
-</code></pre>
-<h2>Coming Soon</h2>
-<ul>
-<li>Studio Commentator Data</li>
-<li>Guests Data</li>
-<li>Images for Characters</li>
-<li>Series &amp; Episode Data</li>
-<li>Japanese Data</li>
-</ul>
-<h1>Contribute</h1>
-<p>Pull requests are welcome. For major changes, please open an issue first
-to discuss what you would like to change.</p>
-<p><a href="www.github.com/parkerhutcheson/terrace-house-api">Terrace House API Repository</a></p>
-<br>
-<h1>Authentication</h1>
-<p>No authentication is currently in place, however there is a rate limit of 10,000 requests per 15 minutes. If you exceed this, you will receive a status code 429, and will need to wait before making additional requests.</p>
-<p>Any excessive use of this API will be limited to prevent impact to other users.</p>
-<br>
-<h1>Local Development</h1>
-<p>Clone this <a href="www.github.com/parkerhutcheson/terrace-house-api">repository</a> to your local machine.</p>
-<h2>Prerequisites:</h2>
-<p>Node.js version 12.0 or later</p>
-<h2>Setup</h2>
-<p>Run the following command in your terminal:</p>
-<pre><code class="language-bash">npm run start
-</code></pre>
-<p>The server will begin running on localhost:3000.</p>
-<br>
+    <header>
+        <img id="th-api-logo" src="./assets/terracehouse_logo.png" alt="TH_API_Logo">
+        <script async defer src="https://buttons.github.io/buttons.js"></script>
+    </header>
+    <main>
+        <section id="documentation">
+            <h1 id="introduction">Introduction</h1>
+            <p>Terrace House API is an open-source resource that gives developers access to member data and quotes from Terrace House to build fun applications and projects. </p>
+            <br>
+            <a class="github-button" href="https://github.com/parkerhutcheson/terrace-house-api" data-icon="octicon-star"
+            aria-label="Star buttons/github-buttons on GitHub">Star</a>
+            <hr>
+            <br>
+            <h1 id="endpoints">Endpoints</h1>
+            <hr>
+            <h2 id="members">Members</h2>
+            <ul>
+            <li><a href="#get-all-members">Get All Members</a></li>
+            <li><a href="#get-all-members-by-series">Get all members by series</a></li>
+            <li><a href="#fet-a-member">Get a member</a></li>
+            <li><a href="#search-by-name-or-nickname">Search by name or nickname</a></li>
+            </ul>
+            <h2 id="quotes">Quotes</h2>
+            <ul>
+            <li><a href="#get-a-random-quote">Get a random quote</a></li>
+            <li><a href="#get-all-quotes-from-a-member">Get all quotes from a member</a></li>
+            </ul>
+            <hr>
+            <h1 id="get-all-members">Get All Members</h1>
+            <p>Retrieve all members from all Terrace House series.</p>
+            <p>Request:</p>
+            <pre><code class="lang-shell"><span class="hljs-attribute">GET</span> <span class="hljs-string">"https://www.terracehouseapi.com/api/v1/members"</span></code></pre>
+            <p>Response:</p>
+            <pre><code class="lang-json">
+            [
+                {
+                    <span class="hljs-attr">"appearanceNumber"</span>: <span class="hljs-number">1</span>,
+                    <span class="hljs-attr">"name"</span>: <span class="hljs-string">"Kaori Watanabe"</span>,
+                    <span class="hljs-attr">"japaneseName"</span>: <span class="hljs-string">"渡邉香織"</span>,
+                    <span class="hljs-attr">"nickname"</span>: [],
+                    <span class="hljs-attr">"occupation"</span>: <span class="hljs-string">"Illustrator"</span>,
+                    <span class="hljs-attr">"birthDate"</span>: <span class="hljs-string">"June 25, 1990"</span>,
+                    <span class="hljs-attr">"age"</span>: <span class="hljs-number">28</span>,
+                    <span class="hljs-attr">"appearance"</span>: [
+                        <span class="hljs-number">1</span>,
+                        <span class="hljs-number">20</span>
+                    ],
+                    <span class="hljs-attr">"episodes"</span>: <span class="hljs-number">20</span>,
+                    <span class="hljs-attr">"series"</span>: <span class="hljs-string">"Tokyo 2019-2020"</span>
+                },
+                ...all members
+            ]
+            </code></pre>
+            <hr>
+            <h1 id="get-all-members-by-series">Get all members by series</h1>
+            <p>Add the corresponding key as a URL parameter to return all members from a particular series.
+            | Parameter    |      Series      |
+            |   --------   |      -------     |
+            | bxg  | Boys X Girls Next Door   |
+            | b&amp;g | Boys &amp; Girls in the City  |
+            | aloha    | Aloha State          |
+            | ong    | Opening New Doors      |
+            | tokyo    | Tokyo 2019-2020      |</p>
+            <p>Request:</p>
+            <pre><code class="lang-shell"><span class="hljs-attribute">GET</span> <span class="hljs-string">"https://www.terracehouseapi.com/api/v1/members/ond"</span></code></pre>
+            <p>Response:</p>
+            <pre><code class="lang-json">
+            [
+                {
+                    <span class="hljs-attr">"appearanceNumber"</span>: <span class="hljs-number">1</span>,
+                    <span class="hljs-attr">"name"</span>: <span class="hljs-string">"Ami Komuro"</span>,
+                    <span class="hljs-attr">"japaneseName"</span>: <span class="hljs-string">"小室安未"</span>,
+                    <span class="hljs-attr">"nickname"</span>: [
+                        <span class="hljs-string">"Ami"</span>
+                    ],
+                    <span class="hljs-attr">"occupation"</span>: <span class="hljs-string">"university student / aspiring model"</span>,
+                    <span class="hljs-attr">"birthDate"</span>: <span class="hljs-string">"January 19, 1997"</span>,
+                    <span class="hljs-attr">"age"</span>: <span class="hljs-number">21</span>,
+                    <span class="hljs-attr">"appearance"</span>: [
+                        <span class="hljs-number">1</span>,
+                        <span class="hljs-number">17</span>
+                    ],
+                    <span class="hljs-attr">"episodes"</span>: <span class="hljs-number">17</span>,
+                    <span class="hljs-attr">"series"</span>: <span class="hljs-string">"Opening New Doors"</span>
+                },
+                ...all Opening New Doors members
+            ]
+            </code></pre>
+            <hr>
+            <h1 id="get-a-member">Get a member</h1>
+            <p>Separate the first and last name with a &quot;+&quot; symbol</p>
+            <p>Request:</p>
+            <pre><code class="lang-shell"><span class="hljs-attribute">GET</span> <span class="hljs-string">"https://www.terracehouseapi.com/api/v1/members/chikako+fukuyama"</span></code></pre>
+            <p>Response:</p>
+            <pre><code class="lang-json">
+            [
+                {
+                    <span class="hljs-attr">"appearanceNumber"</span>: <span class="hljs-number">14</span>,
+                    <span class="hljs-attr">"name"</span>: <span class="hljs-string">"Chikako Fukuyama"</span>,
+                    <span class="hljs-attr">"japaneseName"</span>: <span class="hljs-string">"福山智可子"</span>,
+                    <span class="hljs-attr">"nickname"</span>: [
+                        <span class="hljs-string">"Chika"</span>
+                    ],
+                    <span class="hljs-attr">"occupation"</span>: <span class="hljs-string">"spa receptionist"</span>,
+                    <span class="hljs-attr">"birthDate"</span>: <span class="hljs-string">"November 8, 1988"</span>,
+                    <span class="hljs-attr">"age"</span>: <span class="hljs-number">28</span>,
+                    <span class="hljs-attr">"appearance"</span>: [
+                        <span class="hljs-number">26</span>,
+                        <span class="hljs-number">36</span>
+                    ],
+                    <span class="hljs-attr">"episodes"</span>: <span class="hljs-number">11</span>,
+                    <span class="hljs-attr">"series"</span>: <span class="hljs-string">"Aloha State"</span>
+                }
+            ]
+            </code></pre>
+            <hr>
+            <h1 id="search-by-name-or-nickname">Search by name or nickname</h1>
+            <p>Use a general search to look for members, including nicknames! This endpoint can bring back multiple members with similar names, or help you find a specific member by their nick name. </p>
+            <p>Request:</p>
+            <pre><code class="lang-shell"><span class="hljs-attribute">GET</span> <span class="hljs-string">"https://www.terracehouseapi.com/api/v1/members/tap"</span></code></pre>
+            <p>Response:</p>
+            <pre><code class="lang-json">
+            [
+              {
+                    <span class="hljs-attr">"appearanceNumber"</span>: <span class="hljs-number">3</span>,
+                    <span class="hljs-attr">"name"</span>: <span class="hljs-string">"Yuki Adachi"</span>,
+                    <span class="hljs-attr">"japaneseName"</span>: <span class="hljs-string">"安達雄基"</span>,
+                    <span class="hljs-attr">"nickname"</span>: [
+                        <span class="hljs-string">"Tap"</span>
+                    ],
+                    <span class="hljs-attr">"occupation"</span>: <span class="hljs-string">"tap dancer"</span>,
+                    <span class="hljs-attr">"birthDate"</span>: <span class="hljs-string">"August 19, 1987"</span>,
+                    <span class="hljs-attr">"age"</span>: <span class="hljs-number">27</span>,
+                    <span class="hljs-attr">"appearance"</span>: [
+                        <span class="hljs-number">1</span>,
+                        <span class="hljs-number">17</span>
+                    ],
+                    <span class="hljs-attr">"episodes"</span>: <span class="hljs-number">17</span>,
+                    <span class="hljs-attr">"series"</span>: <span class="hljs-string">"Boys &amp; Girls in the City"</span>
+                }
+            ]
+            </code></pre>
+            <hr>
+            <h1 id="get-a-random-quote">Get a random quote</h1>
+            <p>This endpoint will fetch a random quote from the show</p>
+            <p>Request:</p>
+            <pre><code class="lang-shell"><span class="hljs-attribute">GET</span> <span class="hljs-string">"https://www.terracehouseapi.com/api/v1/quotes"</span></code></pre>
+            <p>Response:</p>
+            <pre><code class="lang-json">{
+                <span class="hljs-attr">"name"</span>: <span class="hljs-string">"Minori Nakada"</span>,
+                <span class="hljs-attr">"japaneseName"</span>: <span class="hljs-string">"中田みのり"</span>,
+                <span class="hljs-attr">"quote"</span>: <span class="hljs-string">"I love having free time. I can live forever doing nothing."</span>
+            }
+            </code></pre>
+            <hr>
+            <h1 id="get-all-quotes-from-a-member">Get all quotes from a member</h1>
+            <p>This endpoint will fetch all quotes from a member, depending on if there are any available. Like in the members endpoint, provide the first name and last name separated by a &quot;+&quot; symbol.</p>
+            <p>Request:</p>
+            <pre><code class="lang-shell"><span class="hljs-attribute">GET</span> <span class="hljs-string">"https://www.terracehouseapi.com/api/v1/quotes/minori+nakada"</span>
+            </code></pre>
+            <p>Response:</p>
+            <pre><code class="lang-json">
+            [
+                {
+                    <span class="hljs-attr">"name"</span>: <span class="hljs-string">"Minori Nakada"</span>,
+                    <span class="hljs-attr">"japaneseName"</span>: <span class="hljs-string">"中田みのり"</span>,
+                    <span class="hljs-attr">"quote"</span>: <span class="hljs-string">"I love having free time. I can live forever doing nothing."</span>
+                }
+            ]
+            </code></pre>
+            <hr>
+            <h2 id="coming-soon">Coming Soon</h2>
+            <ul>
+            <li>Studio Commentator Data</li>
+            <li>Guests Data</li>
+            <li>Images for Characters</li>
+            <li>Series &amp; Episode Data</li>
+            <li>Japanese Data</li>
+            </ul>
+            <hr>
 
-<h1>License</h1>
-<p>Terrace House API has been developed by Parker Hutcheson. All data is provided by public online resources and therefore might not be 100% accurate. Please see how to contribute above to improve or correct data.</p>
-<p>Copyright (c) © 2023 Parker Hutcheson. Terrace House is a registered trademark of Fuji Television Network, Inc. East Entertainment Co., Ltd. フジテレビ イースト・エンタテインメント.フジテレビ イースト・エンタテインメント.</p>
+            <h1 id="contribute">Contribute</h1>
+            <p>Pull requests are welcome. For major changes, please open an issue first
+            to discuss what you would like to change. </p>
+            <p><a href="www.github.com/parkerhutcheson/terrace-house-api">Terrace House API Repository</a></p>
+            <hr>
+            <h1 id="authentication">Authentication</h1>
+            <p>No authentication is currently in place, however, there is a rate limit of 10,000 requests per 15 minutes. If you exceed this, you will receive a status code 429, and will need to wait before making additional requests. </p>
+            <p>Any excessive use of this API will be limited to prevent impact to other users.</p>
+            <hr>
 
-    </section>
-  </main>
+            <h1 id="local-development">Local Development</h1>
+            <h2 id="prerequisites-">Prerequisites:</h2>
+            <p>Node.js version 12.0 or later
+            Clone this <a href="www.github.com/parkerhutcheson/terrace-house-api">repository</a> to your local machine.</p>
+            <h2 id="setup">Setup</h2>
+            <p>Run the following command in your terminal:</p>
+            <pre><code class="lang-bash">npm <span class="hljs-keyword">run</span><span class="bash"> start</span></code></pre>
+            <p>The server will begin running on localhost:3000. </p>
+            <hr>
+            <h1 id="license">License</h1>
+            <p>Terrace House API has been developed by Parker Hutcheson. All data is provided by public online resources and therefore might not be 100% accurate. Please see how to contribute above to improve or correct data.</p>
+            <p>Copyright (c) © 2023 Parker Hutcheson. Terrace House is a registered trademark of Fuji Television Network, Inc. East Entertainment Co., Ltd. フジテレビ イースト・エンタテインメント.フジテレビ イースト・エンタテインメント.</p>
+            
+        </section>
+    </main>
 
-  <footer>
-    <!-- <img id="th-studio-img"src="./assets/terrace_dinner.png" alt="TH_Studio_Image"> -->
-  </footer>
+    <footer>
+    </footer>
 </body>
 
 </html>
