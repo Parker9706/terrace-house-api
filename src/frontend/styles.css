@@ -32,6 +32,26 @@ header {
   background-color: #e5e4e4;
 }
 
+table {
+  border-collapse: collapse;
+  min-width: 200px;
+  max-width: 35%;
+  background-color: white;
+}
+
+th, td {
+  border: 1px solid #898787;
+  padding: 8px;
+}
+
+th {
+  background-color: #ffffff;
+}
+
+/* tr:nth-child(even) {
+  background-color: #ffffff;
+} */
+
 h1 {
   margin-bottom: 10px;
 }
